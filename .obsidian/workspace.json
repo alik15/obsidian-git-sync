@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Services.md",
+                "file": "Kubernetes/Installation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,19 +171,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "58513c484169312c",
+  "active": "389cb47c7ca71e29",
   "lastOpenFiles": [
-    "Kubernetes Debugging.md",
+    "Kubernetes/Installation.md",
     "Kubernetes/Services.md",
+    "Kubernetes/Kubernetes Debugging.md",
     "Kubernetes/Networking/Internal Networking.md",
     "Kubernetes/Kubernetes to Kubernetes Communication.md",
     "Docker/Installation.md",
     "Networking/Network Address Translation.md",
     "Networking/Borderway Gateway Protocol.md",
     "Kubernetes/CoreDNS.md",
-    "Domain Name System (DNS).md",
+    "Networking/Domain Name System (DNS).md",
     "Kubernetes/Installation 1.md",
-    "External Networking.md",
+    "Kubernetes/Networking/External Networking.md",
     "Networking/Network Devices.md",
     "Kubernetes/Networking",
     "Networking/Domain Name System (DNS)",
@@ -198,7 +199,6 @@
     "Networking/OSI Model/1.Physical Layer.md",
     "Networking/OSI Model",
     "Kubernetes/Useful Commands.md",
-    "Kubernetes/Installation.md",
     "Miscellaneous",
     "Networking",
     "Docker",
