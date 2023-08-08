@@ -45,8 +45,9 @@ upstreams ip outside the cluster
 
 
 
+use the following as reference 
 
-
+https://static.sched.com/hosted_files/kccna18/b9/KubeCon-Seattle-2018%20-%20Understanding%20%20CoreDNS%20in%20Kubernetes.pdf
 
 
 
