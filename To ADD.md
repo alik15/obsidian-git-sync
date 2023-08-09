@@ -1,5 +1,0 @@
-
-DHCP 
-GOlang 
-bash 
-python 
