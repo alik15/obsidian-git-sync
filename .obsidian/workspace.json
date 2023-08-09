@@ -4,40 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "5daf9792131013e7",
+        "id": "c9f2b694c1e602e6",
         "type": "tabs",
         "children": [
           {
-            "id": "2bde16b86ef83981",
+            "id": "d6b6f8d680eb9526",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Virtual Environments.md",
+                "file": "Kubernetes/Useful Commands.md",
                 "mode": "source",
                 "source": true
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "5d81e6358060435d",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "b60bb9ec6e747830",
+            "id": "f950ee70c64f8412",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Virtual Environments.md",
-                "mode": "preview",
-                "source": true
+                "file": "Kubernetes/Architecture.md",
+                "mode": "source",
+                "source": false
               }
             }
+          },
+          {
+            "id": "2d93aecb0ee87000",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7f4224f74c9d5342",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -87,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 240.5
   },
   "right": {
     "id": "0f6c58b54e314b16",
@@ -103,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Virtual Environments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Virtual Environments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Python Virtual Environments.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -164,36 +175,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b60bb9ec6e747830",
+  "active": "7f4224f74c9d5342",
   "lastOpenFiles": [
-    "Python Virtual Environments.md",
-    "To ADD.md",
-    "questions.md",
-    "Kubernetes/Networking/Internal Networking.md",
-    "Using Git.md",
-    "Untitled.md",
-    "Networking/Virtual Private Network.md",
-    "Kubernetes/Installation.md",
+    "Kubernetes/Architecture.md",
     "Kubernetes/Services.md",
-    "Kubernetes/Networking/External Networking.md",
+    "Pods.md",
+    "Kubernetes/Useful Commands.md",
     "Kubernetes/Kubernetes Debugging.md",
     "Kubernetes/MultiCluster Communication.md",
+    "Kubernetes/Installation.md",
+    "Kubernetes/CoreDNS.md",
+    "Kubernetes/Networking/External Networking.md",
+    "Kubernetes/Networking/Internal Networking.md",
+    "questions.md",
+    "Networking/OSI Model/2.Data Link Layer.md",
+    "Networking/OSI Model/1.Physical Layer.md",
+    "Python Virtual Environments.md",
+    "Networking/OSI Model/3.Network Layer.md",
+    "Networking/Network Devices.md",
+    "Networking/Domain Name System (DNS).md",
+    "Using Git.md",
+    "To ADD.md",
+    "Untitled.canvas",
+    "2023-08-09.md",
+    "Networking/Virtual Private Network.md",
     "Networking/Borderway Gateway Protocol.md",
     "Networking/Address Resolution Protocol.md",
-    "Kubernetes/Useful Commands.md",
-    "Networking/Domain Name System (DNS).md",
-    "Networking/Network Devices.md",
-    "Kubernetes/CoreDNS.md",
     "Docker/Installation.md",
     "Networking/Network Address Translation.md",
     "Kubernetes/Installation 1.md",
     "Kubernetes/Networking",
     "Networking/Domain Name System (DNS)",
-    "Networking/OSI Model/7.Application Layer.md",
-    "Networking/OSI Model/6.Presentation Layer.md",
-    "Networking/OSI Model/5.Session Layer.md",
-    "Networking/OSI Model/4.Transport Layer.md",
-    "Networking/OSI Model/3.Network Layer.md",
     "Networking/OSI Model",
     "Miscellaneous",
     "Networking",
