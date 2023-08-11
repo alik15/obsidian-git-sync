@@ -7,3 +7,8 @@ types of pods
 replica sets
 daemon sets
 busy box?
+
+
+
+
+]]

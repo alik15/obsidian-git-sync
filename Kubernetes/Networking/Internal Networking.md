@@ -31,6 +31,8 @@ this is provided by:
 2. [[Container Network Interface#2. Calico]]
 
 
+within pod communication 
+![[Pasted image 20230811114018.png]]
 
 ### The Pod  Network
 
@@ -38,19 +40,20 @@ this is provided by:
 A CNI is used to provide the ip address from a network range 
 
 
+#### Pod to Pod Communication within a Node
+- This communication occurs through internal network established through a virtual network with the help of bridges that is established by the container runtime 
 
+![[Pasted image 20230811111524.png]]
 
+#### Pod to Pod Communication in different nodes 
 
+Flannel creates interfaces in each node and connects to the virtual machines interface 
+The communication inbetween happens through VXLAN(UDP Tunnel)
+calli
 
+![[Pasted image 20230811111817.png]]
 
-
-
-
-
-
-
-
-
+> [!tip] Callouts can have custom titles
 
 
 

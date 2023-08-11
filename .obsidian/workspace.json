@@ -20,43 +20,19 @@
             }
           },
           {
-            "id": "0679990699147058",
+            "id": "fca34f02ff945041",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Pods.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88f5ce82ba01d504",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/Networking/Internal Networking.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "31a5872f68d66de9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/Networking/Internal Networking.md",
+                "file": "Day Planners/Day Planner-20230811.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,6 +91,7 @@
       {
         "id": "b21c496c1621cb69",
         "type": "tabs",
+        "dimension": 33.397683397683394,
         "children": [
           {
             "id": "c4d94ef82c45a0e8",
@@ -122,13 +99,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Networking/Internal Networking.md",
+                "file": "Day Planners/Day Planner-20230811.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -139,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Networking/Internal Networking.md",
+                "file": "Day Planners/Day Planner-20230811.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Networking/Internal Networking.md"
+                "file": "Day Planners/Day Planner-20230811.md"
               }
             }
           },
@@ -171,6 +148,21 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "2dca3c7765e2a50e",
+        "type": "tabs",
+        "dimension": 66.6023166023166,
+        "children": [
+          {
+            "id": "bef5b8265cab87f1",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
               "state": {}
             }
           }
@@ -194,50 +186,51 @@
   },
   "active": "389cb47c7ca71e29",
   "lastOpenFiles": [
-    "Kubernetes/Networking/Container Network Interface.md",
     "Kubernetes/Networking/Internal Networking.md",
+    "Pasted image 20230811114018.png",
+    "Kubernetes/Networking/MultiCluster Communication.md",
+    "Kubernetes/Pods.md",
+    "Pasted image 20230811114000.png",
+    "Pasted image 20230811113939.png",
+    "Kubernetes/Networking/ExternalDNS.md",
+    "Kubernetes/Networking/External Networking.md",
+    "Kubernetes/Networking/CoreDNS.md",
+    "Kubernetes/Networking/Container Network Interface.md",
+    "Docker/Networking.md",
+    "Pasted image 20230811113444.png",
+    "Pasted image 20230811111817.png",
+    "Pasted image 20230811111524.png",
+    "questions.md",
+    "2023-08-09.md",
+    "Day Planners/Day Planner-20230811.md",
+    "Cryptopals write up.md",
+    "Day Planners/Day Planner-20230810.md",
+    "Git.md",
+    "Untitled.canvas",
+    "Day Planners/Day Planner-20230809.md",
+    "Day Planners",
+    "Networking/Network Namespaces.md",
+    "Cloud",
     "Untitled.md",
     "Calico.md",
     "Kubernetes/Networking/Network Layers.md",
     "Kubernetes/Useful Commands.md",
-    "Kubernetes/Pods.md",
     "Kubernetes/Networking/Container Network Interface/CNI.md",
-    "Kubernetes/Networking/MultiCluster Communication.md",
     "Kubernetes/Networking/Container Network Interface",
     "Kubernetes/Networking/Container Network Interface/Flannel.md",
     "Kubernetes/Networking/Container Network Interface/Calico.md",
     "Kubernetes/Services.md",
     "Kubernetes/Kubernetes Debugging.md",
-    "Kubernetes/Networking/CoreDNS.md",
-    "Using Git.md",
-    "Scribble Pad.md",
-    "2023-08-09.md",
     "Pasted image 20230809135018.png",
-    "Networking/Borderway Gateway Protocol.md",
     "Pasted image 20230809115616.png",
     "Pasted image 20230809120140.png",
-    "Kubernetes/Networking/External Networking.md",
-    "Networking/Network Namespaces.md",
-    "Networking/Network Devices.md",
-    "questions.md",
     "Pasted image 20230809131422.png",
-    "Pasted image 20230809130506.png",
-    "Pasted image 20230809130134.png",
-    "Python Virtual Environments.md",
-    "project ideas.md",
-    "Pasted image 20230809122925.png",
-    "Pasted image 20230809121834.png",
-    "Networking/session initiation protocol.md",
-    "Day Planners/Day Planner-20230809.md",
-    "Day Planners",
     "Monitoring/Grafana",
     "Monitoring/Prometheus",
     "Monitoring",
-    "Untitled.canvas",
     "Kubernetes/Networking",
     "Networking/Domain Name System (DNS)",
     "Networking/OSI Model",
-    "Miscellaneous",
-    "Networking"
+    "Miscellaneous"
   ]
 }
