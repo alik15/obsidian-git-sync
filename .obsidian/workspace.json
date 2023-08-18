@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Kubernetes Deployment.md",
+                "file": "Kubernetes/Kubernetes Deployment Guide.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Kubernetes Deployment.md",
+                "file": "Kubernetes/Kubernetes Deployment Guide.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Kubernetes Deployment.md",
+                "file": "Kubernetes/Kubernetes Deployment Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Kubernetes Deployment.md"
+                "file": "Kubernetes/Kubernetes Deployment Guide.md"
               }
             }
           },
@@ -175,8 +175,11 @@
   },
   "active": "4e1f45ed21cf9e97",
   "lastOpenFiles": [
+    "Kubernetes/Kubernetes Deployment 1.md",
+    "Kubernetes/Kubernetes Deployment Guide.md",
+    "Pasted image 20230818213423.png",
+    "Pasted image 20230818213222.png",
     "Kubernetes/Kubernetes Debugging.md",
-    "Kubernetes/Kubernetes Deployment.md",
     "Pasted image 20230818202426.png",
     "Pasted image 20230818201014.png",
     "Scribble Pad.md",
@@ -194,7 +197,6 @@
     "Pasted image 20230818113259.png",
     "Pasted image 20230818111023.png",
     "Pasted image 20230818110938.png",
-    "Pasted image 20230818105249.png",
     "Python Virtual Environments.md",
     "project ideas.md",
     "Kubernetes/Networking/Network Layers.md",
@@ -209,9 +211,7 @@
     "Day Planners/Day Planner-20230811.md",
     "Day Planners/Day Planner-20230813.md",
     "Cryptopals write up.md",
-    "Pasted image 20230811114018.png",
     "Kubernetes/Pods.md",
-    "2023-08-09.md",
     "Day Planners",
     "Cloud",
     "Kubernetes/Networking/Container Network Interface",

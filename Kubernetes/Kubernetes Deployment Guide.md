@@ -21,10 +21,6 @@ you need the following packages/tools installed
 
 
 
-
-
-
-
 ## 2 Installing Kubernetes 
 
 
@@ -218,9 +214,6 @@ sudo swapoff -a
 
 
 
-
-
-
 ## 3 Deploying the Cluster
 
 >[!Warning]
@@ -307,9 +300,11 @@ vim calico.yaml
 
 
 - Find the “CALICO__IPV4POOL_CIDR variable and uncomment the two lines as shown below. Replacing “192.168.0.0/16” with “10.244.0.0/16" or whatever ip range you used to intialise the cluster
-
+>[!Info]
+>You can search in vi by using "/" followed by the text you are looking 
 
 ![[Pasted image 20230818201014.png]]
+
 
 
 #### 3.3.4 Start Calico on the cluster
@@ -335,26 +330,46 @@ kubectl get pods -n kube-system
 ![[Pasted image 20230818202426.png]]
 
 
-### 4 Testing the Deployment 
+### 4 Verifying the Deployment 
 
-```shell
-kubectl get pods
-```
+first check if all your nodes connected with your master node by running the following command in the master node
+
 
 ```bash
 kubectl get nodes
 ```
-{screenshots of all these outputs }
+![[Pasted image 20230818213222.png]]
+
+
+Next you can deploy a pod by running the following 
 
 ```shell
 kubectl apply -f https://k8s.io/examples/pods/simple-pod.yaml
 ```
 
+To check if the pod is deployed and running you can run the following
+
+```shell
+kubectl get pods
+```
+
+You should get the following output
+![[Pasted image 20230818213423.png]]
 
 
 
 
-Everytime you ssh into a node  and try using **kubectl** you will face the following error:
+
+{screenshots of all these outputs }
+
+
+
+
+
+
+
+>[!info]
+>Everytime you ssh into a node  and try using **kubectl** you will face the following error:
 
 ```bash 
 Unable to connect to the server: tls: failed to verify certificate: x509: certificate signed by unknown authority (possibly because of "crypto/rsa: verification error" while trying to verify candidate authority certificate "kubernetes")
@@ -365,6 +380,14 @@ You can use the following command to get rid of it:
 ```bash
 export KUBECONFIG=/etc/kubernetes/admin.conf
 ```
+
+>[!success]
+>You have deployed a Kubernetes cluster
+
+### 5 Things to do 
+Make a bash script to simplify installation 
+
+
 
 
 References 
@@ -378,36 +401,3 @@ https://phoenixnap.com/kb/how-to-install-kubernetes-on-centos
 Docker 
 https://www.youtube.com/watch?v=Ro2qeYeisZQ&t=239s
 
-
-Pod yaml File 
-```yaml
-
-apiVersion: v1
-kind: Pod
-metadata:
-  name: nginx
-spec:
-  containers:
-  - name: nginx
-    image: nginx:1.14.2
-    ports:
-    - containerPort: 80
-
-```
-
-
-Service Yaml File 
-
-```yaml
-apiVersion: v1
-kind: Service
-metadata:
-  name: my-service
-spec:
-  selector:
-    app.kubernetes.io/name: MyApp
-  ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 9376
-```
