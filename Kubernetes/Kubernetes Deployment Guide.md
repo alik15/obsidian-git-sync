@@ -322,7 +322,7 @@ kubectl get pods -n kube-system
 
 
 ### 3.4 Joining worker Nodes
-#### 3.6 Kubeadm Join
+####  Kubeadm Join
 - Use the kubeadm join you got from kubeadm init
 
 - Do this on both nodes
