@@ -111,6 +111,10 @@ sudo systemctl status docker
 
 ### 2.2 Set Hostname on Nodes
 
+> [!info]
+> These steps need to be performed on all nodes, master and the two worker 
+
+
 To give a unique hostname to each of your nodes, use this command:
 
 ```
@@ -175,6 +179,8 @@ firewall-cmd --reload
 ![[Pasted image 20230818113339.png]]
 
 
+> [!info]
+> The following steps need to be performed on all nodes, master and the two worker 
 
 ### 2.4 Update Iptables Settings
 
@@ -244,8 +250,8 @@ you can explore it further from here
 	https://github.com/containerd/containerd/issues/8139#issuecomment-1491536705
 
 
->[!info]
->paste the following command in other nodes to connect them to the master node
+>[!warning]
+>Save the output given by kubeadm init elsewhere, we will use it later
 
 
 ```bash
