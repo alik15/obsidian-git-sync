@@ -2,6 +2,7 @@
 # New Notes to add
 DHCP 
 zero trust security models
+kubernetes debugging
 
 
 things to learn
@@ -18,6 +19,10 @@ things to learn
 - terraform 
 - ncap etc
 
-
+- docker compose
+- how does kubernetes services work
+- ingress
+- nodeport
+- 
 - api style structures 
 - web server structures
