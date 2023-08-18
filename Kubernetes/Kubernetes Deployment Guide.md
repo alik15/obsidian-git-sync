@@ -1,12 +1,3 @@
-
-
-
-
-Prerequisites
-you need the following packages/tools installed 
-
-
-
 ## 1 Specifications 
 
 
