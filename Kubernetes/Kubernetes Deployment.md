@@ -354,8 +354,17 @@ kubectl apply -f https://k8s.io/examples/pods/simple-pod.yaml
 
 
 
+Everytime you ssh into a node  and try using **kubectl** you will face the following error:
 
+```bash 
+Unable to connect to the server: tls: failed to verify certificate: x509: certificate signed by unknown authority (possibly because of "crypto/rsa: verification error" while trying to verify candidate authority certificate "kubernetes")
 
+```
+
+You can use the following command to get rid of it:
+```bash
+export KUBECONFIG=/etc/kubernetes/admin.conf
+```
 
 
 References 
