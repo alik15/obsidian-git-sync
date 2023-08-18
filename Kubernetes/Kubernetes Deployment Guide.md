@@ -12,7 +12,7 @@ you need the following packages/tools installed
 
 |            | Specifications                       |
 | ---------- | ------------------------------------ |
-| Hardware   | 4 cpus 4GBs 75GBs                    |
+| Hardware   | 4 cpus 4GB RAM 75GBs storage                    |
 | Os         | CentOS Linux release 7.9.2009 (Core) |
 | Kubelet |                      1.28                |
 | Docker     |  24.0.5                |
