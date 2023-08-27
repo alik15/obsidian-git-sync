@@ -27,11 +27,10 @@
 
 # Project Related 
 
-- [ ] will the external DNS have to be **containerized** 
-- [ ] does the external DNS have to be **scalable** 
-
+- [x] will the external DNS have to be **containerized** 
+- [x] does the external DNS have to be **scalable** 
 - [ ] when pods were talked about ( too many pods ) was it about the user pods 
-
 - [ ] when generating n number of requests do we need to setup a **user cluster** or can we generate the requests through **trx generator** 
-- [ ] what is the externalDNS doing in this situation
-- [ ] 
+- [x] what is the externalDNS doing in this situation
+- [x] bind 9 vs dns masq
+- [ ] how to route traffic through the external dns server

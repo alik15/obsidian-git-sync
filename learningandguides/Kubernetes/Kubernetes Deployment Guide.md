@@ -227,6 +227,12 @@ sudo kubeadm init --pod-network-cidr=10.244.0.0/16
 
 if you encounter the following error:
 ![[Pasted image 20230818150110.png]]
+>[!info]
+>this error can happen in master and worker so apply on both
+>
+
+
+
 
 Use the follow the follwing manual 
 1. Correct configuration is specified for the endpoint "unix:///var/run/containerd/containerd.sock" and enabled the plugin instead of disabled.  
@@ -246,8 +252,8 @@ you can explore it further from here
 
 
 ```bash
-kubeadm join 172.30.237.10:6443 --token gmz1p5.qc38xzmxnkgxg3yr \
---discovery-token-ca-cert-hash sha256:204be7dc8f215e26b3b42409dc6596051cad0103f0789471210f93213d3d849f 
+kubeadm join 172.30.237.10:6443 --token {} \
+--discovery-token-ca-cert-hash {} 
 
 ```
 
@@ -338,27 +344,21 @@ kubectl get nodes
 ![[Pasted image 20230818213222.png]]
 
 
-Next you can deploy a pod by running the following 
+Next you can deploy a pod by running the following:
 
 ```shell
 kubectl apply -f https://k8s.io/examples/pods/simple-pod.yaml
 ```
 
-To check if the pod is deployed and running you can run the following
+To check if the pod is deployed and running you can run the following:
 
 ```shell
 kubectl get pods
 ```
 
-You should get the following output
+You should get the following output:
+
 ![[Pasted image 20230818213423.png]]
-
-
-
-
-
-{screenshots of all these outputs }
-
 
 
 
@@ -382,9 +382,8 @@ export KUBECONFIG=/etc/kubernetes/admin.conf
 >You have deployed a Kubernetes cluster
 
 ### 5 Things to do 
-Make a bash script to simplify installation 
-
-
+- Make a bash script to simplify installation 
+- Fix errors
 
 
 

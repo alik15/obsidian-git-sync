@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "c9f2b694c1e602e6",
+        "id": "476f9aea3fb02e6c",
         "type": "tabs",
         "children": [
           {
-            "id": "4e1f45ed21cf9e97",
+            "id": "2af4540c176e7464",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Kubernetes Deployment Guide.md",
+                "file": "workout program.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d279d226cc30741c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "learningandguides/Kubernetes/Kubernetes Deployment Guide.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24fa40cbe9466dfe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "miscellaneous/Booklist.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Kubernetes Deployment Guide.md",
+                "file": "learningandguides/Kubernetes/Kubernetes Deployment Guide.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Kubernetes Deployment Guide.md",
+                "file": "learningandguides/Kubernetes/Kubernetes Deployment Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Kubernetes Deployment Guide.md"
+                "file": "learningandguides/Kubernetes/Kubernetes Deployment Guide.md"
               }
             }
           },
@@ -173,54 +198,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4e1f45ed21cf9e97",
+  "active": "d279d226cc30741c",
   "lastOpenFiles": [
-    "Kubernetes/Kubernetes Deployment Guide.md",
-    "Kubernetes/Kubernetes Deployment 1.md",
-    "Pasted image 20230818213423.png",
-    "Pasted image 20230818213222.png",
-    "Kubernetes/Kubernetes Debugging.md",
-    "Pasted image 20230818202426.png",
-    "Pasted image 20230818201014.png",
-    "Scribble Pad.md",
-    "Day Planners/Day Planner-20230819.md",
-    "Untitled.md",
-    "Day Planners/Day Planner-20230818.md",
-    "Docker/Networking.md",
-    "Day Planners/Day Planner-20230809.md",
-    "questions.md",
-    "Kubernetes/Networking/Internal Networking.md",
-    "Untitled.canvas",
-    "Pasted image 20230818151647.png",
-    "Pasted image 20230818150110.png",
-    "Pasted image 20230818113339.png",
-    "Pasted image 20230818113259.png",
-    "Pasted image 20230818111023.png",
-    "Pasted image 20230818110938.png",
-    "Python Virtual Environments.md",
+    "Day Planners/Day Planner-20230827.md",
+    "learningandguides/Kubernetes/Kubernetes Debugging.md",
+    "learningandguides/Kubernetes/Kubernetes Deployment Guide.md",
+    "learningandguides/Kubernetes/Networking/Container Network Interface.md",
     "project ideas.md",
-    "Kubernetes/Networking/Network Layers.md",
-    "Kubernetes/Networking/MultiCluster Communication.md",
-    "Kubernetes/Networking/ExternalDNS.md",
-    "Kubernetes/Networking/External Networking.md",
-    "Kubernetes/Networking/CoreDNS.md",
-    "Kubernetes/Networking/Container Network Interface.md",
-    "Git.md",
-    "Kubernetes/Services.md",
+    "learningandguides/Kubernetes/Networking/External Networking.md",
+    "learningandguides/Kubernetes/Networking/CoreDNS.md",
+    "Day Planners/Day Planner-20230825.md",
+    "learningandguides/Kubernetes/Networking/C.md",
+    "learningandguides/questions.md",
+    "Scribble Pad.md",
+    "workout program.md",
+    "Day Planners/Day Planner-20230823.md",
+    "Day Planners/Day Planner-20230824.md",
     "Day Planners/Day Planner-20230814.md",
-    "Day Planners/Day Planner-20230811.md",
-    "Day Planners/Day Planner-20230813.md",
-    "Cryptopals write up.md",
-    "Kubernetes/Pods.md",
-    "Day Planners",
-    "Cloud",
-    "Kubernetes/Networking/Container Network Interface",
-    "Monitoring/Grafana",
-    "Monitoring/Prometheus",
-    "Monitoring",
-    "Kubernetes/Networking",
-    "Networking/Domain Name System (DNS)",
-    "Networking/OSI Model",
-    "Miscellaneous"
+    "Day Planners/Day Planner-20230818.md",
+    "Day Planners/Day Planner-20230819.md",
+    "Day Planners/Day Planner-20230821.md",
+    "Day Planners/Day Planner-20230822.md",
+    "Untitled Kanban.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "miscellaneous/Booklist.md",
+    "learningandguides/Python Virtual Environments.md",
+    "learningandguides/Pasted image 20230809130134.png",
+    "learningandguides/Pasted image 20230809131422.png",
+    "learningandguides/Pasted image 20230809130506.png",
+    "learningandguides/Pasted image 20230809122925.png",
+    "learningandguides/Pasted image 20230809121834.png",
+    "learningandguides/Pasted image 20230809120140.png",
+    "learningandguides/Pasted image 20230818150110.png",
+    "learningandguides/Pasted image 20230818113339.png",
+    "learningandguides/Pasted image 20230818113259.png",
+    "learningandguides/Pasted image 20230818110938.png",
+    "learningandguides/Git.md",
+    "learningandguides/Operating Systems",
+    "learningandguides/Networking/OSI Model/7.Application Layer.md",
+    "learningandguides/Networking/OSI Model",
+    "learningandguides/Networking",
+    "learningandguides/Monitoring/Prometheus",
+    "learningandguides/Monitoring/Grafana",
+    "learningandguides/Monitoring",
+    "learningandguides/Kubernetes/Networking",
+    "learningandguides/Kubernetes",
+    "learningandguides/Docker",
+    "learningandguides",
+    "Untitled.canvas"
   ]
 }
