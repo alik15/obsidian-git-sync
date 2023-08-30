@@ -12,7 +12,7 @@ DNS is cached on various servers down the lane which is done so that the next ti
 However this also introduces a problem; when a websites ip address changes, it is still assosiated in your local DNS cache with its original ip address and is trying to go to that ip address and thus is never resolved [^1]
 
 
-
+### 3 DNS Poisoning
 
 
 
