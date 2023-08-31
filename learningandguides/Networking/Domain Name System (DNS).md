@@ -18,7 +18,7 @@ However this also introduces a problem; when a websites ip address changes, it i
 
 
 
-
+## Setting up a Virtual Machine as a DNS 
 
 
 

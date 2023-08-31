@@ -48,21 +48,21 @@ systemctl start kubelet
 
 #### 2.1.1 Installing docker as runtime 
 
-Uninstalling any older variant you might have
+Uninstall older variant (if any)
 
 ```bash
 sudo yum remove docker docker-client-latest docker-common docker-latest-logrotate docker-engine
 ```
 
 
-Installing config manager
+Install config manager
 
 ```bash
 sudo yum install -y yum-utils
 ```
 
 
-Adding docker repository 
+Add docker repository 
 
 ```bash 
 sudo yum install -y yum-utils
@@ -76,7 +76,7 @@ sudo yum install -y docker-ce docker-ce-cli containerd.io
 ```
 
 
-#### Configuring Docker for Cgroup management
+#### 2.1.2 Configuring Docker for Cgroup management
 
 
 check if **/etc/docker/daemon.json** exists
@@ -99,6 +99,7 @@ sudo systemctl restart docker
 sudo systemctl enable docker 
 sudo systemctl status docker
 ```
+
 
 ### 2.2 Set Hostname on Nodes
 
@@ -185,8 +186,6 @@ EOF
 sysctl --system
 ```
 
-
-
 ### 2.5 Disable SELinux
 
 The containers need to access the host filesystem. SELinux needs to be set to permissive mode, which effectively disables its security functions.
@@ -198,7 +197,6 @@ sudo setenforce 0
 sudo sed -i 's/^SELINUX=enforcing$/SELINUX=permissive/' /etc/selinux/config
 ```
 
-
 ### 2.6 Disable SWAP
 
 Lastly, we need to disable SWAP to enable the kubelet to work properly:
@@ -209,7 +207,22 @@ sudo swapoff -a
 ```
 
 
+### 2.7 Enabling Containerd as CRI
 
+Go to the file /etc/containerd/config.toml and make sure it looks like this:
+
+(make the disabled to enabled and add the other lines)
+```toml
+enabled_plugins = ["cri"]
+[plugins."io.containerd.grpc.v1.cri".containerd]
+  endpoint = "unix:///var/run/containerd/containerd.sock"`
+```
+
+### 2.7.1 Restart Containerd
+
+```bash 
+systemctl restart containerd
+```
 
 ## 3 Deploying the Cluster
 
@@ -279,22 +292,13 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 ### 3.3 Installing Calico as a CNI 
 
-
-
-#### 3.3.1 Change local directory to the lab calico dir.
-
-```bash 
-   cd ~/agilitydocs/docs/class1/kubernetes/calico
-```
- 
-
-#### 3.3.2 Download calico manifest
+#### 3.3.1 Download calico manifest
 
 ```bash
-curl https://docs.projectcalico.org/manifests/calico.yaml -O
+curl https://raw.githubusercontent.com/projectcalico/calico/v3.25.1/manifests/calico.yaml -O
 ```
 
-#### 3.3.3 Modify the manifest with proper POD CIDR
+#### 3.3.2 Modify the manifest with proper POD CIDR
 
 ```bash 
 vim calico.yaml
@@ -302,22 +306,23 @@ vim calico.yaml
 
 
 
-- Find the “CALICO__IPV4POOL_CIDR variable and uncomment the two lines as shown below. Replacing “192.168.0.0/16” with “10.244.0.0/16" or whatever ip range you used to intialise the cluster
+- Find the “CALICO__IPV4POOL_CIDR" variable and uncomment the two lines as shown below. Replace “192.168.0.0/16” with “10.244.0.0/16" or whatever IP range you used to initialize the cluster
 >[!Info]
 >You can search in vi by using "/" followed by the text you are looking 
+>use "n" to scroll the next occurrence and "N" to scroll the previous occurrences
 
 ![[Pasted image 20230818201014.png]]
 
 
 
-#### 3.3.4 Start Calico on the cluster
+#### 3.3.3 Start Calico on the cluster
 
 ```bash
 kubectl apply -f calico.yaml
 ```
 
 
-#### 3.3.5 Validate Calico pods are installed and running
+#### 3.3.4 Validate Calico pods are installed and running
 
 ```bash
 kubectl get pods -n kube-system
@@ -335,16 +340,23 @@ kubectl get pods -n kube-system
 
 ### 4 Verifying the Deployment 
 
-first check if all your nodes connected with your master node by running the following command in the master node
-
+First check if all your nodes connected with your master node by running the following command in the master node
 
 ```bash
 kubectl get nodes
 ```
 ![[Pasted image 20230818213222.png]]
 
+Make sure all the pods are running  _and_ are in the ready state with the following command:
+```bash
+kubectl get pods -A 
+```
 
-Next you can deploy a pod by running the following:
+![[Pasted image 20230831152201.png]]
+
+
+
+Next you can try deploying a pod by running the following:
 
 ```shell
 kubectl apply -f https://k8s.io/examples/pods/simple-pod.yaml
@@ -361,7 +373,8 @@ You should get the following output:
 ![[Pasted image 20230818213423.png]]
 
 
-
+As a final check, try setting up a service and exposing it to a port from the following 
+https://kubernetes.io/docs/concepts/services-networking/service/
 
 
 
@@ -381,13 +394,29 @@ export KUBECONFIG=/etc/kubernetes/admin.conf
 >[!success]
 >You have deployed a Kubernetes cluster
 
-### 5 Things to do 
+
+### 5 If things Go wrong
+
+If you face any errors, you can use the following commands for debugging
+```bash
+kubectl log 
+kubectl describe pod 
+systemctl status kubelet #/ docker / containerd
+journalctl -u kubelet -n 10  #(10 for last 10 logs since it logs since the beginning)
+```
+
+You can explore some of the errors in the following google doc which havent yet been included in here (in the error section):
+https://docs.google.com/document/d/1I7AhD5-Om9d-VKYumM9W4mkSRvYgytHQIdgRUTMDEJw/edit
+
+Errors
+
+
+### 6 Things to do 
 - Make a bash script to simplify installation 
 - Fix errors
-
-
-
-References 
+- Add error section
+- Add service in verifying section
+### 7 References 
 
 Calico
 https://clouddocs.f5.com/training/community/containers/html/appendix/appendix8/appendix8.html
