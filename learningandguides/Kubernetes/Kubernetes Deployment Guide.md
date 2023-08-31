@@ -178,7 +178,7 @@ firewall-cmd --reload
 
 Set the **`net.bridge.bridge-nf-call-iptables`** to '1' in your sysctl config file. This ensures that packets are properly processed by IP tables during filtering and port forwarding.
 
-```
+```bash
 cat <<EOF > /etc/sysctl.d/k8s.conf
 net.bridge.bridge-nf-call-ip6tables = 1
 net.bridge.bridge-nf-call-iptables = 1
@@ -192,7 +192,7 @@ The containers need to access the host filesystem. SELinux needs to be set to pe
 
 Use following commands to [disable SELinux](https://phoenixnap.com/kb/how-to-disable-selinux-on-centos-7):
 
-```
+```bash
 sudo setenforce 0
 sudo sed -i 's/^SELINUX=enforcing$/SELINUX=permissive/' /etc/selinux/config
 ```
@@ -201,7 +201,7 @@ sudo sed -i 's/^SELINUX=enforcing$/SELINUX=permissive/' /etc/selinux/config
 
 Lastly, we need to disable SWAP to enable the kubelet to work properly:
 
-```
+```bash
 sudo sed -i '/swap/d' /etc/fstab
 sudo swapoff -a
 ```
@@ -209,7 +209,7 @@ sudo swapoff -a
 
 ### 2.7 Enabling Containerd as CRI
 
-Go to the file /etc/containerd/config.toml and make sure it looks like this:
+Go to the file ```/etc/containerd/config.toml``` and make sure it looks like this:
 
 (make the disabled to enabled and add the other lines)
 ```toml
@@ -233,7 +233,7 @@ systemctl restart containerd
 ### 3.1 Create Cluster with kubeadm
 
 
-```
+```bash
 sudo kubeadm init --pod-network-cidr=10.244.0.0/16
 ```
 
@@ -407,8 +407,6 @@ journalctl -u kubelet -n 10  #(10 for last 10 logs since it logs since the begin
 
 You can explore some of the errors in the following google doc which havent yet been included in here (in the error section):
 https://docs.google.com/document/d/1I7AhD5-Om9d-VKYumM9W4mkSRvYgytHQIdgRUTMDEJw/edit
-
-Errors
 
 
 ### 6 Things to do 

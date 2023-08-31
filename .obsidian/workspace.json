@@ -25,19 +25,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learningandguides/Kubernetes/Kubernetes Deployment Guide.md",
+                "file": "learningandguides/Networking/Setup DNSmasq on CentOS.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "d279d226cc30741c",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Untitled Kanban.md"
               }
             }
           },
@@ -128,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 351.5
   },
   "right": {
     "id": "0f6c58b54e314b16",
@@ -145,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learningandguides/Kubernetes/Kubernetes Deployment Guide.md",
+                "file": "learningandguides/Networking/Setup DNSmasq on CentOS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learningandguides/Kubernetes/Kubernetes Deployment Guide.md",
+                "file": "learningandguides/Networking/Setup DNSmasq on CentOS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learningandguides/Kubernetes/Kubernetes Deployment Guide.md"
+                "file": "learningandguides/Networking/Setup DNSmasq on CentOS.md"
               }
             }
           },
@@ -217,8 +207,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,42 +223,41 @@
   },
   "active": "98e60f613bcceaa3",
   "lastOpenFiles": [
-    "Pasted image 20230831152201.png",
-    "learningandguides/Networking/Setup DNSmasq on CentOS.md",
-    "Pasted image 20230831124157.png",
-    "Install-dnsmasq-in-CentOS.png",
-    "workout program.md",
-    "Untitled Kanban.md",
+    "links.md",
+    "learningandguides/Pasted image 20230818201014.png",
     "learningandguides/Kubernetes/Kubernetes Deployment Guide.md",
+    "learningandguides/Kubernetes/Kubernetes Debugging.md",
+    "learningandguides/Kubernetes/Architecture.md",
+    "learningandguides/Kubernetes/Networking/Container Network Interface.md",
+    "learningandguides/Kubernetes/Networking/CoreDNS.md",
+    "learningandguides/Kubernetes/Networking/External Networking.md",
+    "learningandguides/Kubernetes/Networking/ExternalDNS.md",
+    "learningandguides/Kubernetes/Networking/Network Layers.md",
+    "learningandguides/Kubernetes/Networking/MultiCluster Communication.md",
+    "Day Planners/Day Planner-20230828.md",
+    "learningandguides/Networking/Setup DNSmasq on CentOS.md",
+    "Day Planners/Day Planner-20230830.md",
+    "Install-dnsmasq-in-CentOS.png",
+    "Untitled Kanban.md",
+    "Pasted image 20230831152201.png",
+    "Pasted image 20230831124157.png",
+    "workout program.md",
     "Virtual Box.md",
     "Pasted image 20230831110509.png",
     "Pasted image 20230831110052.png",
     "learningandguides/Networking/Domain Name System (DNS).md",
     "Day Planners/Day Planner-20230831.md",
     "learningandguides/Kubernetes/Networking/Internal Networking.md",
-    "Day Planners/Day Planner-20230830.md",
-    "learningandguides/Kubernetes/Networking/MultiCluster Communication.md",
-    "learningandguides/Kubernetes/Networking/ExternalDNS.md",
-    "learningandguides/Kubernetes/Networking/External Networking.md",
-    "learningandguides/Kubernetes/Networking/CoreDNS.md",
-    "learningandguides/Kubernetes/Architecture.md",
-    "links.md",
     "Day Planners/Day Planner-20230829.md",
     "Scribble Pad.md",
     "Day Planners/Day Planner-20230809.md",
     "project ideas.md",
-    "Day Planners/Day Planner-20230828.md",
     "Day Planners/Day Planner-20230827.md",
-    "learningandguides/Kubernetes/Kubernetes Debugging.md",
-    "learningandguides/Kubernetes/Networking/Container Network Interface.md",
     "Day Planners/Day Planner-20230825.md",
-    "learningandguides/Kubernetes/Networking/C.md",
     "learningandguides/Pasted image 20230809130134.png",
     "learningandguides/Pasted image 20230809131422.png",
     "learningandguides/Pasted image 20230809130506.png",
     "learningandguides/Pasted image 20230809122925.png",
-    "learningandguides/Pasted image 20230809121834.png",
-    "learningandguides/Pasted image 20230809120140.png",
     "learningandguides/Operating Systems",
     "learningandguides/Networking/OSI Model",
     "learningandguides/Networking",

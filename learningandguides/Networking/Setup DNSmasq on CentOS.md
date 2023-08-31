@@ -46,24 +46,22 @@ port = 53
 
 
 #### 1.3.2 Uncomment the following lines 
-
+```
 expand-hosts
 domain-needed 
 bogus-priv
 expand-hosts
-
+```
 
 #### 1.3.3 Test dnsmasq server 
 ```shell
-
 dnsmasq --test
-
 ```
 #### 1.3.4 change your /etc/resolv.conf file 
 
 remove/comment the 8.8.8.8 line and add
 
-```vi
+```
 nameserver 127.0.0.1
 ```
 
@@ -75,13 +73,13 @@ chattr +i /etc/resolv.conf
 lsattr /etc/resolv.conf
 ```
 
-### Restart your DNSmasq service 
+### 1.4 Restart your DNSmasq service 
 ```bash
 systemctl restart dnsmasq
 ```
 
 
-## Add  DNS services in firewalld
+## 1.5 Add DNS services in firewalld
 
  ```bash 
  firewall-cmd --add-service=dns --permanent
@@ -90,9 +88,9 @@ systemctl restart dnsmasq
 ```
 
 
-## Testing your DNS server 
-add a ip - name pair in your /etc/hosts
+## 1.6 Testing your DNS server  
 
+add an ip - name pair in your /etc/hosts
 
 ```bash 
 yum install bind-utils
@@ -104,10 +102,7 @@ run the following command
 dig webserver1 +short 
 ```
 
-
-
-
-
-References
+## 1.7 References
 https://phoenixnap.com/kb/configure-centos-network-settings
 https://www.tecmint.com/setup-a-dns-dhcp-server-using-dnsmasq-on-centos-rhel/
+
