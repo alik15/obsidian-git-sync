@@ -15,3 +15,6 @@ https://www.rfc-editor.org/rfc/rfc1466
 https://www.rfc-editor.org/rfc/rfc4632
 
 ## 
+
+
+https://www.usenix.org/legacy/event/sec08/tech/full_papers/halderman/halderman_html/
