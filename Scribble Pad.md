@@ -33,7 +33,13 @@ things to learn
 - nodeport
 
 
-
+## Python 
+- zip
+- map 
+- logging module 
+- fstrings 
+- format thingies 
+- cauesar cipher program 
 
 
 

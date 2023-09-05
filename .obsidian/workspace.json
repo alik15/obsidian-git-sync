@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scribble Pad.md",
+                "file": "links.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cryptopals.md",
+                "file": "links.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cryptopals.md",
+                "file": "links.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cryptopals.md"
+                "file": "links.md"
               }
             }
           },
@@ -233,14 +233,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ee0b4da051475812",
+  "active": "44159ada66781ccc",
   "lastOpenFiles": [
+    "project ideas.md",
+    "Day Planners/Day Planner-20230905.md",
+    "Day Planners/Day Planner-20230903.md",
+    "Scribble Pad.md",
+    "cryptopals.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "2023-09-02.md",
     "Day Planners/Day Planner-20230902.md",
     "links.md",
-    "cryptopals.md",
     "Untitled",
     "learningandguides/Networking/Setup DNSmasq on CentOS.md",
     "Day Planners/Day Planner-20230901.md",
@@ -266,9 +270,6 @@
     "Pasted image 20230831110052.png",
     "learningandguides/Networking/Domain Name System (DNS).md",
     "Day Planners/Day Planner-20230831.md",
-    "learningandguides/Kubernetes/Networking/Internal Networking.md",
-    "Day Planners/Day Planner-20230829.md",
-    "Scribble Pad.md",
     "learningandguides/Pasted image 20230809130134.png",
     "learningandguides/Pasted image 20230809131422.png",
     "learningandguides/Pasted image 20230809130506.png",

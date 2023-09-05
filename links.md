@@ -14,7 +14,13 @@ https://www.rfc-editor.org/rfc/rfc1466
 ## Classless Inter-domain Routing (CIDR):
 https://www.rfc-editor.org/rfc/rfc4632
 
-## 
+## The Twelve Networking Truths
+https://datatracker.ietf.org/doc/html/rfc1925
+
+
+
+
+
 
 
 https://www.usenix.org/legacy/event/sec08/tech/full_papers/halderman/halderman_html/
