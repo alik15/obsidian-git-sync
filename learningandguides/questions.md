@@ -34,3 +34,4 @@
 - [x] what is the externalDNS doing in this situation
 - [x] bind 9 vs dns masq
 - [ ] how to route traffic through the external dns server
+- [ ] what is the dns doing in this case, are we emulating external-dns that acts as a public dns updater or are we routing traffic through this dns pod 
