@@ -43,4 +43,5 @@ things to learn
 
 
 
+- create a motor driver for a dc motor 
 - 

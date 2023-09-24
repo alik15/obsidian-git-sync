@@ -4,71 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "476f9aea3fb02e6c",
+        "id": "40f3522f8b0aa3ae",
         "type": "tabs",
         "children": [
           {
-            "id": "2af4540c176e7464",
+            "id": "70c6d16267a18d88",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "workout program.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "98e60f613bcceaa3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "links.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee0b4da051475812",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cryptopals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "44159ada66781ccc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "links.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ead70c8ceceb7db2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "project ideas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "354b513d074ea9f8",
+            "id": "fb08d34347babe53",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,53 +28,19 @@
             }
           },
           {
-            "id": "ca50c201634d8d07",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.12"
-              }
-            }
-          },
-          {
-            "id": "ad725fb5f77a590e",
+            "id": "3d1babc97a6512a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bluetooth.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a68da153c162589",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WIFI.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "484637985a078c03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Virtual Box.md",
+                "file": "learningandguides/Networking/OSI Model/1.Physical Layer.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -176,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 200
   },
   "right": {
     "id": "0f6c58b54e314b16",
@@ -275,7 +189,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -289,38 +204,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ca50c201634d8d07",
+  "active": "3d1babc97a6512a5",
   "lastOpenFiles": [
-    "Day Planners/Day Planner-20230915.md",
-    "WIFI.md",
-    "Bluetooth.md",
+    "Day Planners/Day Planner-20230924.md",
+    "Day Planners/Day Planner-20230923.md",
+    "learningandguides/computer vision",
     "learningandguides/Networking/OSI Model/1.Physical Layer.md",
-    "Day Planners/Day Planner-20230914.md",
+    "Untitled.md",
+    "Day Planners/Day Planner-20230920.md",
+    "Scribble Pad.md",
+    "Day Planners/Day Planner-20230919.md",
     "Virtual Box.md",
+    "WIFI.md",
+    "workout program.md",
     "project ideas.md",
+    "Day Planners/Day Planner-20230917.md",
+    "Day Planners/Day Planner-20230916.md",
+    "Bluetooth.md",
+    "links.md",
+    "cryptopals.md",
+    "Day Planners/Day Planner-20230915.md",
+    "Day Planners/Day Planner-20230914.md",
     "learningandguides/Networking/Network Namespaces.md",
     "learningandguides/Networking/Virtual Private Network.md",
     "learningandguides/questions.md",
-    "cryptopals.md",
     "Install-dnsmasq-in-CentOS.png",
     "learningandguides/Networking/OSI Model/3.Network Layer.md",
     "learningandguides/Networking/OSI Model/2.Data Link Layer.md",
     "learningandguides/Networking/Address Resolution Protocol.md",
     "learningandguides/Networking/Network Address Translation.md",
     "learningandguides/Networking/Network Devices.md",
-    "learningandguides/Networking/session initiation protocol.md",
-    "learningandguides/Git.md",
-    "learningandguides/Networking/Domain Name System (DNS).md",
-    "learningandguides/Networking/Setup DNSmasq on CentOS.md",
-    "learningandguides/Kubernetes/Networking/CoreDNS.md",
-    "Day Planners/Day Planner-20230912.md",
-    "Scribble Pad.md",
-    "workout program.md",
-    "learningandguides/Kubernetes/Networking/ExternalDNS.md",
-    "learningandguides/Kubernetes/Kubernetes Deployment Guide.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "Untitled",
     "learningandguides/Pasted image 20230818201014.png",
     "Pasted image 20230831152201.png",
     "Pasted image 20230831124157.png",
