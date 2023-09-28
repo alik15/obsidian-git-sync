@@ -5,10 +5,18 @@
 python3 -m venv venv 
 ```
 
+For linux 
+
 ```bash
 source venv/bin/activate 
 ```
-
+for windows 
+```powershell
+# In cmd.exe
+venv\Scripts\activate.bat
+# In PowerShell
+venv\Scripts\Activate.ps1
+```
 
 #### Install the Flask python module(for example) under the virtual environment.
 
