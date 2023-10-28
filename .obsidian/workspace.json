@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learningandguides/Networking/OSI Model/1.Physical Layer.md",
+                "file": "links.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23ca79e75a07ec68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "python challenge.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be2ef6c2ec082898",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Virtual Box.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eea6a2d6686911ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "learningandguides/computer vision/lab task.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learningandguides/Networking/OSI Model/1.Physical Layer.md",
+                "file": "Virtual Box.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learningandguides/Networking/OSI Model/1.Physical Layer.md",
+                "file": "Virtual Box.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learningandguides/Networking/OSI Model/1.Physical Layer.md"
+                "file": "Virtual Box.md"
               }
             }
           },
@@ -183,36 +220,37 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3d1babc97a6512a5",
+  "active": "be2ef6c2ec082898",
   "lastOpenFiles": [
-    "Day Planners/Day Planner-20230928.md",
+    "Day Planners/Day Planner-20231028.md",
+    "kubernetes errors.md",
+    "python challenge.md",
+    "Pasted image 20231027092649.png",
+    "links.md",
+    "Day Planners/Day Planner-20231027.md",
     "learningandguides/Networking/OSI Model/1.Physical Layer.md",
+    "Modern.md",
+    "learningandguides/computer vision/lab task.md",
+    "workout program.md",
+    "Scribble Pad.md",
+    "Day Planners/Day Planner-20231026.md",
+    "Day Planners/Day Planner-20231022.md",
+    "learningandguides/Kubernetes/Kubernetes Deployment Guide.md",
+    "Day Planners/Day Planner-20231014.md",
+    "Day Planners/Day Planner-20231013.md",
+    "Day Planners/Day Planner-20231007.md",
+    "learningandguides/Kubernetes/Kubernetes Debugging.md",
+    "Day Planners/Day Planner-20231006.md",
+    "project ideas.md",
+    "Day Planners/Day Planner-20231002.md",
+    "Day Planners/Day Planner-20230928.md",
     "Day Planners/Day Planner-20230926.md",
     "Day Planners/Day Planner-20230924.md",
     "Day Planners/Day Planner-20230923.md",
     "learningandguides/computer vision",
     "Untitled.md",
     "Day Planners/Day Planner-20230920.md",
-    "Scribble Pad.md",
-    "Day Planners/Day Planner-20230919.md",
-    "Virtual Box.md",
-    "WIFI.md",
-    "workout program.md",
-    "project ideas.md",
-    "Day Planners/Day Planner-20230917.md",
-    "Day Planners/Day Planner-20230916.md",
-    "Bluetooth.md",
-    "links.md",
-    "cryptopals.md",
-    "Day Planners/Day Planner-20230915.md",
-    "Day Planners/Day Planner-20230914.md",
-    "learningandguides/Networking/Network Namespaces.md",
-    "learningandguides/Networking/Virtual Private Network.md",
-    "learningandguides/questions.md",
     "Install-dnsmasq-in-CentOS.png",
-    "learningandguides/Networking/OSI Model/3.Network Layer.md",
-    "learningandguides/Networking/OSI Model/2.Data Link Layer.md",
-    "learningandguides/Networking/Address Resolution Protocol.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "learningandguides/Pasted image 20230818201014.png",
@@ -223,7 +261,6 @@
     "learningandguides/Pasted image 20230809130134.png",
     "learningandguides/Pasted image 20230809131422.png",
     "learningandguides/Pasted image 20230809130506.png",
-    "learningandguides/Pasted image 20230809122925.png",
     "learningandguides/Operating Systems",
     "learningandguides/Networking/OSI Model",
     "learningandguides/Networking",

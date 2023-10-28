@@ -272,9 +272,6 @@ kubeadm join 172.30.237.10:6443 --token {} \
 
 
 
-
-
-
 ### 3.2 Manage Cluster as Regular User
 
 >[!warning]
@@ -332,11 +329,13 @@ kubectl get pods -n kube-system
 ### 3.4 Joining worker Nodes
 ####  Kubeadm Join
 - Use the kubeadm join you got from kubeadm init
-
 - Do this on both nodes
 
 ![[Pasted image 20230818202426.png]]
 
+### 3.5 TLS Certificates
+
+You will need to do this in order to avoid this error
 
 ### 4 Verifying the Deployment 
 
@@ -393,6 +392,7 @@ export KUBECONFIG=/etc/kubernetes/admin.conf
 
 >[!success]
 >You have deployed a Kubernetes cluster
+
 
 
 ### 5 If things Go wrong

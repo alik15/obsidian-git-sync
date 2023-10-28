@@ -9,9 +9,9 @@ things to learn
 
 # Things to Learn
 
-- GOlang 
+
 - bash 
-- java book
+
 - advent of code 2022 (python)
 - leetcode top 150 problems (?)
 - advent of code 2023 (java)
