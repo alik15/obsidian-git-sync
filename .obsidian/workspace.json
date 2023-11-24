@@ -32,24 +32,24 @@
             }
           },
           {
-            "id": "be2ef6c2ec082898",
+            "id": "ded5bd2f99a6388c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Virtual Box.md",
+                "file": "SSL and TLS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "eea6a2d6686911ff",
+            "id": "be2ef6c2ec082898",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learningandguides/computer vision/lab task.md",
+                "file": "cryptopals.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Virtual Box.md",
+                "file": "SSL and TLS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Virtual Box.md",
+                "file": "SSL and TLS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Virtual Box.md"
+                "file": "SSL and TLS.md"
               }
             }
           },
@@ -220,17 +220,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "be2ef6c2ec082898",
+  "active": "ded5bd2f99a6388c",
   "lastOpenFiles": [
+    "python challenge.md",
+    "SSL and TLS.md",
+    "Day Planners/Day Planner-20231103.md",
+    "cryptopals.md",
+    "learningandguides/computer vision/lab task.md",
+    "Bluetooth.md",
+    "links.md",
+    "Virtual Box.md",
+    "Day Planners/Day Planner-20231029.md",
     "Day Planners/Day Planner-20231028.md",
     "kubernetes errors.md",
-    "python challenge.md",
     "Pasted image 20231027092649.png",
-    "links.md",
     "Day Planners/Day Planner-20231027.md",
     "learningandguides/Networking/OSI Model/1.Physical Layer.md",
     "Modern.md",
-    "learningandguides/computer vision/lab task.md",
     "workout program.md",
     "Scribble Pad.md",
     "Day Planners/Day Planner-20231026.md",
@@ -243,13 +249,7 @@
     "Day Planners/Day Planner-20231006.md",
     "project ideas.md",
     "Day Planners/Day Planner-20231002.md",
-    "Day Planners/Day Planner-20230928.md",
-    "Day Planners/Day Planner-20230926.md",
-    "Day Planners/Day Planner-20230924.md",
-    "Day Planners/Day Planner-20230923.md",
     "learningandguides/computer vision",
-    "Untitled.md",
-    "Day Planners/Day Planner-20230920.md",
     "Install-dnsmasq-in-CentOS.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
