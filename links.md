@@ -96,3 +96,5 @@ cryptopals
 
 
 ### 6 Miscellaneous 
+
+https://mcfunley.com/choose-boring-technology

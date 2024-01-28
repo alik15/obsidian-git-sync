@@ -1,10 +1,48 @@
 
+### Update centos
+
+```bash 
+sudo yum update
+```
+
+## Configuring a Static IP 
+first we find the network interface we want to change by running:
+```bash 
+nmcli d
+```
+
+this should display all your network devices as shown below:
+![[Pasted image 20240127120531.png]]
+
+also figure out your ip address by running
+```bash 
+hostname -I
+```
+
+this should list 2 different ip addresses 
+one of them is an ipv4 and the second one is an ipv6
+we ill only be dealing with ipv4 so only select that 
+
+since our virtual machine is connected to a virtual ethernet, is shows up as ethernet type. 
+
+Now we have to edit some of the device's properties to do that we will go to the following directory:
+
+```bash 
+cd /etc/sysconfig/network-scripts
+
+```
+run `ls` to list all the files and directories 
+
+now we can edit the file in the following ways:
+**`BOOTPROTO`** to "static" and **`ONBOOT`** to "yes" if it isn't already set that way
+
+ 
 ### 1.1 Install DNSmasq
 
 **1.** The **dnsmasq** package is available in the default repositories and can be easily installed using the [YUM package manager](https://www.tecmint.com/20-linux-yum-yellowdog-updater-modified-commands-for-package-mangement/) as shown.
 
 ```shell
-yum install dnsmasq
+sudo yum install dnsmasq
 ``` 
 
 ![[Install-dnsmasq-in-CentOS.png]]
@@ -20,9 +58,7 @@ systemctl status dnsmasq
 
 ### 1.3 Configure DNSmasq file
 
-```shell
-vi /etc/dnsmasq.conf
-```
+
 Find out your ethernet interface 
 ```shell 
 nmcli
@@ -32,6 +68,10 @@ nmcli
 ![[Pasted image 20230831124157.png]]
 
 In my case it is ```enp0s3```
+
+```shell
+vi /etc/dnsmasq.conf
+```
 
 #### 1.3.1 Change the following lines 
 
@@ -43,6 +83,10 @@ interface = enp0s3 (add your own ethernet interface)
 port = 53
 ```
 
+you can search for these in the following in vi by 
+`/` followed by the name you are searching for the name 
+you can scroll through the different instances of the name using `n` or backwards with `N`
+
 
 
 #### 1.3.2 Uncomment the following lines 
@@ -50,15 +94,20 @@ port = 53
 expand-hosts
 domain-needed 
 bogus-priv
-expand-hosts
 ```
 
-#### 1.3.3 Test dnsmasq server 
+#### 1.3.3 Test dnsmasq syntax check 
 ```shell
 dnsmasq --test
 ```
-#### 1.3.4 change your /etc/resolv.conf file 
+![[Pasted image 20240127151749.png]]
 
+#### 1.3.4 change your host file 
+
+```
+vi /etc/resolv.conf
+```
+192.168.18.1
 remove/comment the 8.8.8.8 line and add
 
 ```
