@@ -8,115 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3d1babc97a6512a5",
+            "id": "70c6d16267a18d88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "links.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23ca79e75a07ec68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "python challenge.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ded5bd2f99a6388c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learningandguides/Networking/Network Namespaces.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "75abf67602bf0e78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bee13-thinges/ideas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34e07f4ca50cface",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learningandguides/Networking/Setup DNSmasq on CentOS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84e2374e15940c0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "setting up centos virtual machine.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "794730f01495880e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learningandguides/Networking/Setup DNSmasq on CentOS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67f0e9205b216738",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Setup BIND9 as a local dns server.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a8b2b1cfeabba1ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Installing minikube.md",
+                "file": "learningandguides/Kubernetes/CKAD/Helm.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +49,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -166,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 200
   },
   "right": {
     "id": "0f6c58b54e314b16",
@@ -175,7 +78,6 @@
       {
         "id": "b21c496c1621cb69",
         "type": "tabs",
-        "dimension": 33.397683397683394,
         "children": [
           {
             "id": "c4d94ef82c45a0e8",
@@ -183,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Installing minikube.md",
+                "file": "learningandguides/Kubernetes/CKAD/Helm.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Installing minikube.md",
+                "file": "learningandguides/Kubernetes/CKAD/Helm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Installing minikube.md"
+                "file": "learningandguides/Kubernetes/CKAD/Helm.md"
               }
             }
           },
@@ -249,21 +151,6 @@
           }
         ],
         "currentTab": 3
-      },
-      {
-        "id": "2dca3c7765e2a50e",
-        "type": "tabs",
-        "dimension": 66.6023166023166,
-        "children": [
-          {
-            "id": "bef5b8265cab87f1",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -282,55 +169,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a8b2b1cfeabba1ef",
+  "active": "70c6d16267a18d88",
   "lastOpenFiles": [
-    "Day Planners/Day Planner-20240128.md",
-    "Setup BIND9 as a local dns server.md",
-    "Installing minikube.md",
-    "Pasted image 20240127162000.png",
+    "learningandguides/Kubernetes/CKAD/Helm.md",
+    "learningandguides/Kubernetes/CKAD/Notes for CKAD.md",
+    "learningandguides/Kubernetes/Kubernetes Debugging.md",
+    "learningandguides/Kubernetes/CKAD/core concepts",
+    "Untitled",
+    "learningandguides/Kubernetes/CKAD",
+    "learningandguides/Kubernetes/Untitled",
+    "Scribble Pad.md",
     "setting up centos virtual machine.md",
-    "Pasted image 20240127153744.png",
+    "python challenge.md",
+    "miscellaneous/Python Virtual Environments.md",
+    "miscellaneous",
+    "kubernetes errors.md",
+    "bee13-thinges/ideas.md",
+    "bee13-thinges/containerization slides.md",
+    "bee13-thinges/Assignment 1.md",
+    "bee13-thinges",
+    "Setup BIND9 as a local dns server.md",
+    "SSL and TLS.md",
+    "Pasted image 20240127162000.png",
     "Pasted image 20240127160144.png",
     "Pasted image 20240127160119.png",
     "Pasted image 20240127160048.png",
     "Pasted image 20240127154503.png",
-    "learningandguides/Networking/Setup DNSmasq on CentOS.md",
+    "Pasted image 20240127153744.png",
     "Pasted image 20240127151749.png",
     "Pasted image 20240127151727.png",
     "Pasted image 20240127120531.png",
-    "bee13-thinges/Assignment 1.md",
-    "bee13-thinges/ideas.md",
-    "cryptopals.md",
-    "learningandguides/Networking/Network Namespaces.md",
     "Pasted image 20240127010344.png",
-    "Virtual Box.md",
-    "bee13-thinges/containerization slides.md",
+    "Installing minikube.md",
+    "Day Planners/Day Planner-20240128.md",
     "Day Planners/Day Planner-20240127.md",
-    "links.md",
-    "Untitled 1.md",
     "Day Planners/Day Planner-20240126.md",
-    "Untitled",
-    "Notes for CKAD.md",
     "Day Planners/Day Planner-20240125.md",
     "Day Planners/Day Planner-20240120.md",
     "Day Planners/Day Planner-20240115.md",
     "Day Planners/Day Planner-20240114.md",
-    "bee13-thinges",
     "Day Planners/Day Planner-20240113.md",
     "Day Planners/Day Planner-20231217.md",
-    "learningandguides/Kubernetes/Networking/Internal Networking.md",
-    "learningandguides/Networking/OSI Model/4.Transport Layer.md",
-    "learningandguides/Networking/OSI Model/2.Data Link Layer.md",
-    "learningandguides/Networking/OSI Model/1.Physical Layer.md",
+    "Day Planners/Day Planner-20231212.md",
+    "Day Planners/Day Planner-20231103.md",
     "learningandguides/computer vision",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "learningandguides/Operating Systems",
     "learningandguides/Networking/OSI Model",
-    "learningandguides/Networking",
-    "learningandguides/Monitoring/Prometheus",
-    "learningandguides/Monitoring/Grafana",
-    "learningandguides/Monitoring",
-    "learningandguides/Kubernetes/Networking"
+    "learningandguides/Networking"
   ]
 }
