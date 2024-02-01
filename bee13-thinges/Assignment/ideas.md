@@ -25,3 +25,13 @@ make a fake website (expose a service on a port)
 and a fake ip address that only you can access if you use your dns
 expose a docker somehting on a specific port and you can access it only through your dns and not the other dns
 
+
+
+
+make a repo for all this and add a few guides to it
+
+vi guide 
+making a virtual machine guide
+
+
+reminder to take snapshot while installing virtual machine so that they can go back if they messed up

@@ -32,48 +32,12 @@
             }
           },
           {
-            "id": "ded5bd2f99a6388c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learningandguides/Networking/Network Namespaces.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "75abf67602bf0e78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bee13-thinges/ideas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34e07f4ca50cface",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learningandguides/Networking/Setup DNSmasq on CentOS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "84e2374e15940c0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "setting up centos virtual machine.md",
+                "file": "Virtual Box.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,38 +49,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learningandguides/Networking/Setup DNSmasq on CentOS.md",
+                "file": "bee13-thinges/Assignment/READ ME.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "67f0e9205b216738",
+            "id": "684ce519f03bd1d8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Setup BIND9 as a local dns server.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a8b2b1cfeabba1ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Installing minikube.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -166,7 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 290.5
   },
   "right": {
     "id": "0f6c58b54e314b16",
@@ -183,7 +131,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Installing minikube.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +147,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Installing minikube.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,9 +168,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Installing minikube.md"
-              }
+              "state": {}
             }
           },
           {
@@ -282,46 +226,48 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a8b2b1cfeabba1ef",
+  "active": "684ce519f03bd1d8",
   "lastOpenFiles": [
-    "Day Planners/Day Planner-20240128.md",
+    "Virtual Box.md",
+    "links.md",
+    "Day Planners/Day Planner-20240201.md",
+    "bee13-thinges/Assignment/Setting up centos virtual machine.md",
+    "Pasted image 20240131201041.png",
+    "Pasted image 20240131200954.png",
+    "Pasted image 20240131193102.png",
+    "Pasted image 20240131184629.png",
+    "bee13-thinges/Assignment/Assignment 1.md",
+    "learningandguides/Networking/setting up centos virtual machine.md",
+    "bee13-thinges/Assignment/READ ME.md",
+    "Day Planners/Day Planner-20240131.md",
+    "bee13-thinges/Assignment/ideas.md",
+    "bee13-thinges/lab/ideas.md",
+    "bee13-thinges/lab/Installing minikube.md",
     "Setup BIND9 as a local dns server.md",
-    "Installing minikube.md",
-    "Pasted image 20240127162000.png",
-    "setting up centos virtual machine.md",
-    "Pasted image 20240127153744.png",
-    "Pasted image 20240127160144.png",
-    "Pasted image 20240127160119.png",
-    "Pasted image 20240127160048.png",
-    "Pasted image 20240127154503.png",
+    "bee13-thinges/lab",
+    "bee13-thinges/Assignment/using vi.md",
+    "bee13-thinges/Assignment/Setup DNSmasq on CentOS.md",
+    "bee13-thinges/containerization slides.md",
+    "Pasted image 20240130223556.png",
+    "Pasted image 20240130223520.png",
+    "Pasted image 20240130223052.png",
+    "Pasted image 20240130222336.png",
+    "Pasted image 20240130222109.png",
+    "Pasted image 20240130222042.png",
+    "bee13-thinges/Assignment",
     "learningandguides/Networking/Setup DNSmasq on CentOS.md",
-    "Pasted image 20240127151749.png",
-    "Pasted image 20240127151727.png",
-    "Pasted image 20240127120531.png",
-    "bee13-thinges/Assignment 1.md",
-    "bee13-thinges/ideas.md",
+    "learningandguides/Setup DNSmasq on CentOS 1.md",
+    "learningandguides/Networking/Virtual Private Network.md",
+    "learningandguides/Git.md",
+    "Day Planners/Day Planner-20240130.md",
+    "Day Planners/Day Planner-20240128.md",
     "cryptopals.md",
     "learningandguides/Networking/Network Namespaces.md",
-    "Pasted image 20240127010344.png",
-    "Virtual Box.md",
-    "bee13-thinges/containerization slides.md",
     "Day Planners/Day Planner-20240127.md",
-    "links.md",
     "Untitled 1.md",
     "Day Planners/Day Planner-20240126.md",
     "Untitled",
-    "Notes for CKAD.md",
-    "Day Planners/Day Planner-20240125.md",
-    "Day Planners/Day Planner-20240120.md",
-    "Day Planners/Day Planner-20240115.md",
-    "Day Planners/Day Planner-20240114.md",
     "bee13-thinges",
-    "Day Planners/Day Planner-20240113.md",
-    "Day Planners/Day Planner-20231217.md",
-    "learningandguides/Kubernetes/Networking/Internal Networking.md",
-    "learningandguides/Networking/OSI Model/4.Transport Layer.md",
-    "learningandguides/Networking/OSI Model/2.Data Link Layer.md",
-    "learningandguides/Networking/OSI Model/1.Physical Layer.md",
     "learningandguides/computer vision",
     "Untitled 1.canvas",
     "Untitled.canvas",
@@ -329,8 +275,6 @@
     "learningandguides/Networking/OSI Model",
     "learningandguides/Networking",
     "learningandguides/Monitoring/Prometheus",
-    "learningandguides/Monitoring/Grafana",
-    "learningandguides/Monitoring",
-    "learningandguides/Kubernetes/Networking"
+    "learningandguides/Monitoring/Grafana"
   ]
 }
