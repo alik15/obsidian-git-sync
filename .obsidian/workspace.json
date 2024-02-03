@@ -62,9 +62,17 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "101e9d69c032601b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -131,6 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "links.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,6 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "links.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +178,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "links.md"
+              }
             }
           },
           {
@@ -226,8 +238,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "684ce519f03bd1d8",
+  "active": "101e9d69c032601b",
   "lastOpenFiles": [
+    "Day Planners/Day Planner-20240203.md",
+    "python challenge.md",
     "Virtual Box.md",
     "links.md",
     "Day Planners/Day Planner-20240201.md",
@@ -264,8 +278,6 @@
     "cryptopals.md",
     "learningandguides/Networking/Network Namespaces.md",
     "Day Planners/Day Planner-20240127.md",
-    "Untitled 1.md",
-    "Day Planners/Day Planner-20240126.md",
     "Untitled",
     "bee13-thinges",
     "learningandguides/computer vision",
