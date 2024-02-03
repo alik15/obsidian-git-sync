@@ -101,6 +101,8 @@ bogus-priv
 dnsmasq --test
 ```
 ![[Pasted image 20240127151749.png]]
+if there is a problem with the syntax, the test will tell you the line at which the syntax error has occurred. You can go to that line by either opening vi to that specific line or by opening the file in vi and pressing 
+line number + down key
 
 #### 1.3.4 change your host file 
 
@@ -121,6 +123,12 @@ The /etc/resolv.conf file is maintained by a local daemon especially the Network
 chattr +i /etc/resolv.conf
 lsattr /etc/resolv.conf
 ```
+
+![[Pasted image 20240130212655.png]]
+
+it should output the following line if it has worked
+
+if you made an error in the resolv.conf file and want to change it again, you will have to remove the write-protect
 
 ### 1.4 Restart your DNSmasq service 
 ```bash

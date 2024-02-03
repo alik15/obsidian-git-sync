@@ -5,10 +5,11 @@ READ THE FOLLOWING INSTRUCTIONS VERY CAREFULLY
 - ensure that you give your virtual machine enough harddisk otherwise if it fills up you will have to make another one or mount another harddisk 
 
 # Pre-Requisites
-setting up a centos vm
-communicating virtual machines with each other locally
-assigning an ip to a virutal machine in virtual box
-# Introduction
+There are 2 steps you need to ensure that you have completed before moving on with this part
+
+1. Setting up a centos vm
+2. Communicating virtual machines with each other locally
+# Introduction to DNS servers
  In this assignment you will learn about DNS servers and then how to setup a DNS server yourself 
  we will also learn how to create virtual machines and use it as a DNS server for private network. 
  
