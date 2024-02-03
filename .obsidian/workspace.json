@@ -59,20 +59,16 @@
             "id": "684ce519f03bd1d8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "101e9d69c032601b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -139,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "links.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "links.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "links.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -238,8 +234,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "101e9d69c032601b",
+  "active": "684ce519f03bd1d8",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "learningandguides/Kubernetes/CKAD/Notes for CKAD.md",
+    "learningandguides/Kubernetes/CKAD/Helm.md",
+    "learningandguides/Kubernetes/CKAD",
     "Day Planners/Day Planner-20240203.md",
     "python challenge.md",
     "Virtual Box.md",
@@ -275,9 +275,6 @@
     "learningandguides/Git.md",
     "Day Planners/Day Planner-20240130.md",
     "Day Planners/Day Planner-20240128.md",
-    "cryptopals.md",
-    "learningandguides/Networking/Network Namespaces.md",
-    "Day Planners/Day Planner-20240127.md",
     "Untitled",
     "bee13-thinges",
     "learningandguides/computer vision",
@@ -286,7 +283,6 @@
     "learningandguides/Operating Systems",
     "learningandguides/Networking/OSI Model",
     "learningandguides/Networking",
-    "learningandguides/Monitoring/Prometheus",
-    "learningandguides/Monitoring/Grafana"
+    "learningandguides/Monitoring/Prometheus"
   ]
 }
