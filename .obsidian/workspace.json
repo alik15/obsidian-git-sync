@@ -49,26 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bee13-thinges/Assignment/READ ME.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "684ce519f03bd1d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "learningandguides/Kubernetes/CKAD/Notes for CKAD.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -135,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "learningandguides/Kubernetes/CKAD/Notes for CKAD.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "learningandguides/Kubernetes/CKAD/Notes for CKAD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "learningandguides/Kubernetes/CKAD/Notes for CKAD.md"
               }
             }
           },
@@ -234,8 +222,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "684ce519f03bd1d8",
+  "active": "794730f01495880e",
   "lastOpenFiles": [
+    "Day Planners/Day Planner-20240218.md",
+    "bee13-thinges/containerization slides.md",
+    "bee13-thinges/Assignment/READ ME.md",
+    "Day Planners/Day Planner-20240217.md",
     "conflict-files-obsidian-git.md",
     "learningandguides/Kubernetes/CKAD/Notes for CKAD.md",
     "learningandguides/Kubernetes/CKAD/Helm.md",
@@ -252,7 +244,6 @@
     "Pasted image 20240131184629.png",
     "bee13-thinges/Assignment/Assignment 1.md",
     "learningandguides/Networking/setting up centos virtual machine.md",
-    "bee13-thinges/Assignment/READ ME.md",
     "Day Planners/Day Planner-20240131.md",
     "bee13-thinges/Assignment/ideas.md",
     "bee13-thinges/lab/ideas.md",
@@ -261,7 +252,6 @@
     "bee13-thinges/lab",
     "bee13-thinges/Assignment/using vi.md",
     "bee13-thinges/Assignment/Setup DNSmasq on CentOS.md",
-    "bee13-thinges/containerization slides.md",
     "Pasted image 20240130223556.png",
     "Pasted image 20240130223520.png",
     "Pasted image 20240130223052.png",
@@ -273,8 +263,6 @@
     "learningandguides/Setup DNSmasq on CentOS 1.md",
     "learningandguides/Networking/Virtual Private Network.md",
     "learningandguides/Git.md",
-    "Day Planners/Day Planner-20240130.md",
-    "Day Planners/Day Planner-20240128.md",
     "Untitled",
     "bee13-thinges",
     "learningandguides/computer vision",
