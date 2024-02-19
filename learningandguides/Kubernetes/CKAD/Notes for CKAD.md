@@ -9,7 +9,7 @@
      - [ ]  Utilize persistent and ephemeral volumes
  - [ ] 20% - Application Deployment
     - [ ] Use Kubernetes primitives to implement  common deployment strategies (e.g. blue/green or canary) 
-    - [ ] Understand Deployments and how to  perform rolling updates
+- [ ] Understand Deployments and how to  perform rolling updates
     - [ ] Use the Helm package manager to deploy existing packages
 - [ ] Application observability  and maintenance
 	- [ ] Understand API deprecations
@@ -134,7 +134,27 @@ the contexts is used to define what users can access what clusters
 default context is defined in the kubeconfig file
 
 
+#### View Current Context
+```shell
+kubectl config view
+```
+
+#### Changing Context
 
 
+### Role Based access
+
+#### Creating Roles
+#### Creating Roles Bindings
+
+#### Viewing Roles
+#### Viewing Role Bindings
+
+#### Checking Access
+```bash
+k auth can-i create deployment
+```
 # Other things 
 	https://devhints.io/vim
+https://www.civo.com/learn/tips-to-ace-cka-and-ckad-exams
+https://www.infracloud.io/blogs/prepare-cka-ckad-certification/
