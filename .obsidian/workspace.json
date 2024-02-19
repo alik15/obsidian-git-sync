@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "518c786c15f31508",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -123,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learningandguides/Kubernetes/CKAD/Notes for CKAD.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learningandguides/Kubernetes/CKAD/Notes for CKAD.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learningandguides/Kubernetes/CKAD/Notes for CKAD.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -222,15 +234,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "794730f01495880e",
+  "active": "518c786c15f31508",
   "lastOpenFiles": [
+    "learningandguides/Kubernetes/CKAD/Notes for CKAD.md",
+    "conflict-files-obsidian-git.md",
+    "Day Planners/Day Planner-20240219.md",
     "Day Planners/Day Planner-20240220.md",
     "Day Planners/Day Planner-20240218.md",
     "bee13-thinges/containerization slides.md",
     "bee13-thinges/Assignment/READ ME.md",
     "Day Planners/Day Planner-20240217.md",
-    "conflict-files-obsidian-git.md",
-    "learningandguides/Kubernetes/CKAD/Notes for CKAD.md",
     "learningandguides/Kubernetes/CKAD/Helm.md",
     "learningandguides/Kubernetes/CKAD",
     "Day Planners/Day Planner-20240203.md",
@@ -262,7 +275,6 @@
     "bee13-thinges/Assignment",
     "learningandguides/Networking/Setup DNSmasq on CentOS.md",
     "learningandguides/Setup DNSmasq on CentOS 1.md",
-    "learningandguides/Networking/Virtual Private Network.md",
     "Untitled",
     "bee13-thinges",
     "learningandguides/computer vision",
