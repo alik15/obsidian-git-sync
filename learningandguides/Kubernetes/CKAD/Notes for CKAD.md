@@ -35,6 +35,11 @@
 	
 
 
+Running commands from inside the container
+```bash
+k exec webapp -- cat /log/app.log
+```
+
 
 ### Config Maps 
 
@@ -154,7 +159,47 @@ kubectl config view
 ```bash
 k auth can-i create deployment
 ```
+
+
+## Persistent Volumes
+
 # Other things 
 	https://devhints.io/vim
 https://www.civo.com/learn/tips-to-ace-cka-and-ckad-exams
 https://www.infracloud.io/blogs/prepare-cka-ckad-certification/
+
+# Documentation of mock and lightning lab attempts
+
+## Lightning Lab 1 (attempt1)
+
+percentage = 0 perc
+things needed to be worked on
+config maps, creation, mounting inside volumes
+volumes
+persistent volumes
+labels from the commandline 
+exposing objects on the commandline 
+
+
+## Mock Exam 1 (attempt 1)
+
+62 perc
+
+
+Ingress 
+configmaps from the commandline
+env variables
+commands in pods
+storageclass ( just take a basic look at it)
+security contexts
+service ports 
+
+What are the steps in configuring a volume for a pod?
+- what is the path provided in the volume mount and what is the path provided in the volume 
+- should the names of the volume and the volume mount be the same?
+- what is the persistent volume and the volume inside the pod
+- how do we mount config maps onto pods
+
+volumes are attached/used in pods
+volumes are _mounted_ in containers
+we can change the underlying 

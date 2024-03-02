@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6c08407eb08488b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "learningandguides/Kubernetes/CKAD/Notes for CKAD.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -222,8 +234,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "794730f01495880e",
+  "active": "6c08407eb08488b2",
   "lastOpenFiles": [
+    "Day Planners/Day Planner-20240302.md",
+    "Day Planners/Day Planner-20240225.md",
+    "Day Planners/Day Planner-20240224.md",
+    "Day Planners/Day Planner-20240223.md",
     "conflict-files-obsidian-git.md",
     "learningandguides/Kubernetes/CKAD/Notes for CKAD.md",
     "Day Planners/Day Planner-20240219.md",
@@ -252,8 +268,6 @@
     "bee13-thinges/lab/Installing minikube.md",
     "Setup BIND9 as a local dns server.md",
     "bee13-thinges/lab",
-    "bee13-thinges/Assignment/using vi.md",
-    "bee13-thinges/Assignment/Setup DNSmasq on CentOS.md",
     "Pasted image 20240130223556.png",
     "Pasted image 20240130223520.png",
     "Pasted image 20240130223052.png",
@@ -261,8 +275,6 @@
     "Pasted image 20240130222109.png",
     "Pasted image 20240130222042.png",
     "bee13-thinges/Assignment",
-    "learningandguides/Networking/Setup DNSmasq on CentOS.md",
-    "learningandguides/Setup DNSmasq on CentOS 1.md",
     "Untitled",
     "bee13-thinges",
     "learningandguides/computer vision",
