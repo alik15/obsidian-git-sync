@@ -123,7 +123,7 @@ This should be what the networking settings should look like
 
 ![[Pasted image 20240127160144.png]]
 
-
+## The better way to setup a virtual IP for CentOS
 ## Testing the Virtual Machine 
 
 You can login to the account you made

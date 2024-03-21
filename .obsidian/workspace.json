@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learningandguides/Kubernetes/CKAD/Notes for CKAD.md",
+                "file": "bee13-thinges/Assignment/Lab1.md",
                 "mode": "source",
                 "source": false
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learningandguides/Kubernetes/CKAD/Notes for CKAD.md",
+                "file": "bee13-thinges/Assignment/Lab1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learningandguides/Kubernetes/CKAD/Notes for CKAD.md",
+                "file": "bee13-thinges/Assignment/Lab1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learningandguides/Kubernetes/CKAD/Notes for CKAD.md"
+                "file": "bee13-thinges/Assignment/Lab1.md"
               }
             }
           },
@@ -236,37 +236,38 @@
   },
   "active": "6c08407eb08488b2",
   "lastOpenFiles": [
+    "bee13-thinges/containerization slides.md",
+    "bee13-thinges/Assignment/Lab1.md",
+    "bee13-thinges/Assignment/Setup DNSmasq on CentOS.md",
+    "bee13-thinges/Assignment/using vi.md",
+    "bee13-thinges/Assignment/MobaXTerm guide.md",
+    "bee13-thinges/Assignment/Setting up centos virtual machine.md",
+    "Day Planners/Day Planner-20240321.md",
+    "bee13-thinges/Assignment/Assignment 1.md",
+    "learningandguides/Kubernetes/CKA/CKA Notes.md",
+    "Day Planners/Day Planner-20240318.md",
+    "Day Planners/Day Planner-20240313.md",
+    "bee13-thinges/Assignment/Assignment.md",
+    "Day Planners/Day Planner-20240312.md",
+    "Day Planners/Day Planner-20240311.md",
+    "learningandguides/Kubernetes/CKAD/Notes for CKAD.md",
+    "learningandguides/Kubernetes/CKA",
+    "Day Planners/Day Planner-20240310.md",
+    "Day Planners/Day Planner-20240308.md",
+    "Day Planners/Day Planner-20240306.md",
+    "Day Planners/Day Planner-20240305.md",
+    "Day Planners/Day Planner-20240304.md",
+    "Day Planners/Day Planner-20240303.md",
     "Day Planners/Day Planner-20240302.md",
     "Day Planners/Day Planner-20240225.md",
     "Day Planners/Day Planner-20240224.md",
     "Day Planners/Day Planner-20240223.md",
     "conflict-files-obsidian-git.md",
-    "learningandguides/Kubernetes/CKAD/Notes for CKAD.md",
-    "Day Planners/Day Planner-20240219.md",
-    "Day Planners/Day Planner-20240220.md",
-    "Day Planners/Day Planner-20240218.md",
-    "bee13-thinges/containerization slides.md",
-    "bee13-thinges/Assignment/READ ME.md",
-    "Day Planners/Day Planner-20240217.md",
-    "learningandguides/Kubernetes/CKAD/Helm.md",
     "learningandguides/Kubernetes/CKAD",
-    "Day Planners/Day Planner-20240203.md",
-    "python challenge.md",
-    "Virtual Box.md",
-    "links.md",
-    "Day Planners/Day Planner-20240201.md",
-    "bee13-thinges/Assignment/Setting up centos virtual machine.md",
     "Pasted image 20240131201041.png",
     "Pasted image 20240131200954.png",
     "Pasted image 20240131193102.png",
     "Pasted image 20240131184629.png",
-    "bee13-thinges/Assignment/Assignment 1.md",
-    "learningandguides/Networking/setting up centos virtual machine.md",
-    "Day Planners/Day Planner-20240131.md",
-    "bee13-thinges/Assignment/ideas.md",
-    "bee13-thinges/lab/ideas.md",
-    "bee13-thinges/lab/Installing minikube.md",
-    "Setup BIND9 as a local dns server.md",
     "bee13-thinges/lab",
     "Pasted image 20240130223556.png",
     "Pasted image 20240130223520.png",
@@ -282,7 +283,6 @@
     "Untitled.canvas",
     "learningandguides/Operating Systems",
     "learningandguides/Networking/OSI Model",
-    "learningandguides/Networking",
-    "learningandguides/Monitoring/Prometheus"
+    "learningandguides/Networking"
   ]
 }

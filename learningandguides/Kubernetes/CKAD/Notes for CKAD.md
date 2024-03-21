@@ -2,35 +2,35 @@
 
 ## Syllabus
  - [ ] 20% - Application Design and Build
-     - [ ] Define, build and modify container images
-     - [ ] Understand Jobs and CronJobs
-     - [ ] Understand multi-container Pod design  
-     - [ ] patterns (e.g. sidecar, init and others)
-     - [ ]  Utilize persistent and ephemeral volumes
+     - [x] Define, build and modify container images
+     - [x] Understand Jobs and CronJobs
+     - [x] Understand multi-container Pod design  
+     - [x] patterns (e.g. sidecar, init and others)
+     - [x]  Utilize persistent and ephemeral volumes
  - [ ] 20% - Application Deployment
-    - [ ] Use Kubernetes primitives to implement  common deployment strategies (e.g. blue/green or canary) 
+    - [x] Use Kubernetes primitives to implement  common deployment strategies (e.g. blue/green or canary) 
 - [ ] Understand Deployments and how to  perform rolling updates
-    - [ ] Use the Helm package manager to deploy existing packages
+    - [x] Use the Helm package manager to deploy existing packages
 - [ ] Application observability  and maintenance
-	- [ ] Understand API deprecations
-	- [ ] Implement probes and health checks
-	- [ ] Use provided tools to monitor Kubernetes  applications
-	- [ ]  Utilize container logs
-	- [ ] Debugging in Kubernetes
+	- [x] Understand API deprecations
+	- [x] Implement probes and health checks
+	- [x] Use provided tools to monitor Kubernetes  applications
+	- [x]  Utilize container logs
+	- [x] Debugging in Kubernetes
  - [ ] 25% - Application Environment,  Configuration and Security
-	- [ ] Discover and use resources that extend Kubernetes (CRD)
-	- [ ] Understand authentication, authorization and admission control
-	- [ ] Understanding and defining resource  requirements, limits and quotas
-	- [ ] Understand ConfigMaps
-	- [ ] Create & consume Secrets
-	- [ ] Understand ServiceAccounts
-	- [ ] Understand SecurityContexts
+	- [x] Discover and use resources that extend Kubernetes (CRD)
+	- [x] Understand authentication, authorization and admission control
+	- [x] Understanding and defining resource  requirements, limits and quotas
+	- [x] Understand ConfigMaps
+	- [x] Create & consume Secrets
+	- [x] Understand ServiceAccounts
+	- [x] Understand SecurityContexts
  - [ ] 20% - Services & Networking
-	 - [ ] Demonstrate basic understanding of  NetworkPolicies
-	 - [ ] Provide and troubleshoot access to  applications via services
+	 - [x] Demonstrate basic understanding of  NetworkPolicies
+	 - [x] Provide and troubleshoot access to  applications via services
 	- [ ] Use Ingress rules to expose application
 - [ ] Miscellaneous 
-	- [ ] Kubeconfig
+	- [x] Kubeconfig
 	- [ ] Role Based Access
 	
 
@@ -41,7 +41,22 @@ k exec webapp -- cat /log/app.log
 ```
 
 
-### Config Maps 
+--dry-run=client 
+-o yaml
+## Pods 
+### Creating pods
+```bash
+k run <pod-name> --image <image> --port=<port-num> --label
+
+```
+
+```bash
+--labels #only works with pods
+```
+## Deployment
+multiple containers in a single pod only works with deployment but cant give new commands to this
+## Labels
+## Config Maps 
 
 Contain config data as key val pair in a central space
 
@@ -65,17 +80,10 @@ configmap/webapp-config-map created
 kubectl get configmaps
 ```
 
-```YAML
- 
 
-
-```
-
-
-
-### Security Context 
+## Security Context 
 - Used to give or remove privileges from the user
-- Security context can be given at a pod level and at an image level 
+- Security context can be given at a pod level and at an container level 
 ```yaml
 spec:
   securityContext:
@@ -119,9 +127,9 @@ spec:
 - Capabilities are only to be added to a container and not a pod
 
 
-### Resources
+## Resources
  requests should go above limits 
-
+can only be added in a yaml
 ### Security 
 KubeConfig 
 by default kubernetes looks for the .kube file in 
@@ -163,6 +171,14 @@ k auth can-i create deployment
 
 ## Persistent Volumes
 
+
+
+
+
+
+
+
+
 # Other things 
 	https://devhints.io/vim
 https://www.civo.com/learn/tips-to-ace-cka-and-ckad-exams
@@ -203,3 +219,33 @@ What are the steps in configuring a volume for a pod?
 volumes are attached/used in pods
 volumes are _mounted_ in containers
 we can change the underlying 
+
+## Mock Exam 1 (attempt 2)
+91 perc
+mistakes: 
+- typo in pod name
+
+- problem with network policy since i didnt add the port and the correct label in the yaml file
+
+
+
+# Things I need to revise
+- [x] **deployment strategies** 
+- [ ] **cronjob time format**
+- [ ] **helm**
+- [x] **authentication, authorization and admission controllers**
+- [x] **roles/cluster roles**
+- [ ] **Deploying Ingress Controller**
+- [x] **KubeConfig**
+- [x] Taints/Tolerations 
+- [x] Node Affinity
+- [x] Command and Args imperative commands ( is there a difference between them when completing a task)
+- [ ] **SideCar**
+- [ ] Interactive terminal, exec into a pod, bin/sh into a container
+- [ ] Podman
+- [x] multiple containers from the command line( works only for deployment)
+- [ ] how to force create a yaml of an already running pod?
+- [ ] how to force delete  a pod quickly
+- [ ] alias in kubernetes
+- [x] k expose
+- [ ] how do roles and role bindings connect to contexts etc

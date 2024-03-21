@@ -1,33 +1,23 @@
 
-[info]
-READ THE FOLLOWING INSTRUCTIONS VERY CAREFULLY
-- Ensure that you have your full name as your username in your virtual machine 
-- ensure that you give your virtual machine enough harddisk otherwise if it fills up you will have to make another one or mount another harddisk 
-
-# Pre-Requisites
-There are 2 steps you need to ensure that you have completed before moving on with this part
-
-1. Setting up a centos vm
-2. Communicating virtual machines with each other locally
-# Introduction to DNS servers
+# Introduction 
  In this assignment you will learn about DNS servers and then how to setup a DNS server yourself 
  we will also learn how to create virtual machines and use it as a DNS server for private network. 
  
+# DNS servers
+
+DNS stands for Domain Name System
+
+DNS Servers are the core of every network, they are used by every network to figure out what the  "location" of a server is. Every time you perform a search or click on a link, a DNS server is queried. 
+
+This can be analogised as the following:
+for example when Sir Hassaan wants to talk to Sir Ali Hassan who teacher MCS, he doesnt remember his number since he has to talk to hundreds of people everyday and cant remember all those numbers. Thus he keeps a list and "looks up" Sir Ali's number. This is essentially what DNS servers do. They keep a list of website names and their IP addresses and whenever a client queries the website name, the DNS server responds to the query with the ip address
 
 
-
-
-Dns Servers are the core of every network
-public dns server
-go to the following link to learn about public dns servers, however in short dns servers are the PA.
-this can be analogised as the following:
-for example when sir hassaan wants to talk to Sir Ali Hassan who teacher MCS, he doesnt rmbr his number. 
-He will have to "lookup" his number from a list or try to 
 why do we need privte dns servser? 
 -  cache or faster lookups
 - internal website 
 - private LANs
-- 
+-
 
 if we have public dns servers to do all the work for us why do we need a private dns server?f
 There are 2 popular types of dns servers 

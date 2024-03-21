@@ -1,5 +1,43 @@
-# Introduction
 
+# Introduction 
+ In this assignment you will learn about DNS servers and then how to setup a DNS server yourself. We will also learn how to create virtual machines and use it as a DNS server for private network. 
+
+>[!info]
+>Make sure that the network configuration on your virtual machine is set to NAT if you are on the NUST eduroam network, otherwise if its set to Bridged Adapter your VM will try to obtain an ip address for itself which doesn't work in eduroam. 
+# DNS servers
+
+DNS stands for Domain Name System
+
+DNS Servers are the core of every network, they are used by every network to figure out what the  "location" of a server is. Every time you perform a search or click on a link, a DNS server is queried. 
+
+This can be analogized as the following:
+When Sir Hassaan wants to talk to Sir Ali Hassan who teacher MCS, he doesn't remember his number since he has to talk to hundreds of people everyday and cant remember all those numbers. Thus he keeps a list and "looks up" Sir Ali's number. This is essentially what DNS servers do. They keep a list of website names and their IP addresses and whenever a client queries the website name, the DNS server responds to the query with the IP address
+
+
+## Public DNS server vs Private DNS servers
+Public DNS servers are servers with a public IP address and can be queried by anyone. They keep a record of all public websites and respond to queries to all clients. 
+
+>[!faq]
+>If we have public dns servers to do all the work for us why do we need a private dns server?
+
+Private DNS servers are usually on a private network, they are used to handle IP addresses that  in the private network range. If a company is hosting a website for its internal operations, think a bakery or a shop that needs to provide its workers with an interface to access the prices database etc. but doesn't want it open to public for security reasons, they would use a private DNS server hosted locally.
+Thats not all private DNS servers are used for, they can also be used to provide caching abilities for faster lookups
+
+
+There are 2 popular types of DNS servers 
+1. Dnsmasq
+2. BIND
+
+We will be setting up a Dnsmasq server since its easier to setup and lightweight as compared to BIND.
+
+
+Read the following RFC to understand what private IP's are 
+https://www.rfc-editor.org/rfc/rfc1918
+
+Read the following RFC to understand how DNS servers work in more detail
+https://www.rfc-editor.org/rfc/rfc1035
+
+# Setting up the DNS server
 # Update centos
 
 ```bash 
@@ -38,10 +76,10 @@ Now we have to edit some of the device's properties to do that we will go to the
 cd /etc/sysconfig/network-scripts
 
 ```
-run `ls` to list all the files and directories. Now you have to find the file which has the prefix 
+Run `ls` to list all the files and directories. Now you have to find the file which has the prefix 
 `ifcfg` (meaning interface configuration) followed by the network device
 
-now we can edit the file in the following ways:
+Now we can edit the file in the following ways:
 1. Vi/Vim
 2. Nano
 While this guide uses vi, you can choose the second one if you want. 
@@ -89,7 +127,7 @@ interface = enp0s3 (add your own ethernet interface)
 port = 53
 ```
 
- we will also add an upstream DNS server we have talked about earlier. 
+ We will also add an upstream DNS server we have talked about earlier. 
 
 ```bash
 # Google's nameservers
@@ -97,7 +135,7 @@ server=8.8.8.8
 server=8.8.4.4
 ```
 
-since there is no place defined in the files earlier we can add them at a position like the following:
+Since there is no place defined in the files earlier we can add them at a position like the following:
 ![[Pasted image 20240130221642.png]]
 
 
@@ -150,7 +188,7 @@ if you made an error in the resolv.conf file and want to change it again, you wi
 
 ### Add test ips to your DNS server
 
-add an ip - name pair in your `/etc/hosts` to test things. I have added the following:
+add an ip - name pair in your `/etc/hosts` to test things. I have added the following(last line, dont mess with the other lines):
 
 ![[Pasted image 20240130222109.png]]
 
@@ -185,7 +223,7 @@ First install the following:
 yum install bind-utils
 ```
 
-run the following command 
+Run the following command 
 
 ```bash 
 dig webserver1 +short 
