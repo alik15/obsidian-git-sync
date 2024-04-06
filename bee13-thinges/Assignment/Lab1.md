@@ -68,6 +68,8 @@ this image contains the exact code as was sent above, the only difference being:
 
 ### Listing Images and running them as containers on a specific port
 just as in linux when you enter the command `ls` it lists all files and directories in your current directory, docker also has an `ls` command to list all images 
+
+Now we will run one of the available docker images 
 ### Go to the port and check out the application
 
 ### Learn to build your own image and Dockerfiles

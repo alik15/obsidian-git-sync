@@ -16,8 +16,6 @@ assignment: how to setup a virtual machine and connect them locally (let them pi
 {rfc for private networks, rfc for dns server}
 
 
-ask sir about whether i can use the analogy or not 
-ask sir if he can ask his students to learn the vim editor cli ( give link for a game online)
 
 setup 2 vms both with a centos image
 

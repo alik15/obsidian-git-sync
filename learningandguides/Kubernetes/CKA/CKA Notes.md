@@ -9,7 +9,7 @@
 - [x] • Understand deployments and how to perform rolling update and rollbacks
 - [x] • Use ConfigMaps and Secrets to configure applications
 - [x] • Know how to scale applications
-- [ ] • Understand the primitives used to create robust, self-healing, application deployments 
+- [x] • Understand the primitives used to create robust, self-healing, application deployments 
 - [x] • Understand how resource limits can affect Pod scheduling 
 - [ ] • Awareness of manifest management and common templating tools 
 20% - Services & Networking 
@@ -23,7 +23,7 @@
 - [x]  Understand storage classes, persistent volumes 
 - [ ]  Understand volume mode, access modes and reclaim policies for volumes 
 - [x]  Understand persistent volume claims primitive
-- [ ]  Know how to configure applications with persistent storage 
+- [x]  Know how to configure applications with persistent storage 
 30% - Troubleshooting 
 - [ ]  Evaluate cluster and node logging 
 - [ ]  Understand how to monitor applications 
