@@ -3,9 +3,11 @@
   "tag-wrangler",
   "calendar",
   "obsidian-statusbar-pomo",
-  "obsidian-day-planner",
   "table-editor-obsidian",
   "obsidian-rollover-daily-todos",
-  "obsidian-kanban",
-  "cm-editor-syntax-highlight-obsidian"
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-pandoc",
+  "dataview",
+  "obsidian-day-planner",
+  "obsidian-style-settings"
 ]

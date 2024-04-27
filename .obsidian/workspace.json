@@ -4,95 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "40f3522f8b0aa3ae",
+        "id": "36fa5b6830fccf3e",
         "type": "tabs",
         "children": [
           {
-            "id": "3d1babc97a6512a5",
+            "id": "0bce830f79bbf5fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "links.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23ca79e75a07ec68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "python challenge.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84e2374e15940c0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Virtual Box.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "794730f01495880e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learningandguides/Kubernetes/CKAD/Notes for CKAD.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c08407eb08488b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bee13-thinges/Assignment/Lab1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1aaa215e6a5c3e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learningandguides/Kubernetes/CKA/CKA Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a689d69e4f250a07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bee13-thinges/Assignment/Lab1.md",
+                "file": "learningandguides/Kubernetes/Networking/CoreDNS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +49,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -142,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 200
   },
   "right": {
     "id": "0f6c58b54e314b16",
@@ -151,7 +78,6 @@
       {
         "id": "b21c496c1621cb69",
         "type": "tabs",
-        "dimension": 33.397683397683394,
         "children": [
           {
             "id": "c4d94ef82c45a0e8",
@@ -159,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bee13-thinges/Assignment/Lab1.md",
+                "file": "learningandguides/Kubernetes/Networking/CoreDNS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bee13-thinges/Assignment/Lab1.md",
+                "file": "learningandguides/Kubernetes/Networking/CoreDNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bee13-thinges/Assignment/Lab1.md"
+                "file": "learningandguides/Kubernetes/Networking/CoreDNS.md"
               }
             }
           },
@@ -222,28 +148,21 @@
                 "searchQuery": ""
               }
             }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "2dca3c7765e2a50e",
-        "type": "tabs",
-        "dimension": 66.6023166023166,
-        "children": [
+          },
           {
-            "id": "bef5b8265cab87f1",
+            "id": "8c259f66fd0fb219",
             "type": "leaf",
             "state": {
               "type": "timeline",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 235.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -255,58 +174,59 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-statusbar-pomo:Start pomodoro": false,
+      "obsidian-day-planner:Timeline": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a689d69e4f250a07",
+  "active": "0bce830f79bbf5fd",
   "lastOpenFiles": [
-    "Day Planners/Day Planner-20240406.md",
-    "bee13-thinges/Assignment/ideas.md",
-    "Day Planners/Day Planner-20240403.md",
-    "bee13-thinges/Assignment/Assignment.md",
-    "bee13-thinges/Assignment/Assignment 1.md",
+    "learningandguides/Kubernetes/Networking/ExternalDNS.md",
+    "learningandguides/Kubernetes/Networking/CoreDNS.md",
+    "learningandguides/Kubernetes/Networking/External Networking.md",
+    "learningandguides/Kubernetes/Networking/Container Network Interface.md",
+    "learningandguides/Docker/Networking.md",
+    "Day Planners/2024-04-11.md",
+    "Day Planners/2024-04-10.md",
+    "Pasted image 20231027092649.png",
+    "bee13-thinges/Assignment/Lab1 Final.md",
     "bee13-thinges/Assignment/Lab2.md",
-    "Day Planners/Day Planner-20240323.md",
-    "bee13-thinges/containerization slides.md",
+    "bee13-thinges/Assignment/Lab3.md",
     "bee13-thinges/Assignment/Lab1.md",
-    "bee13-thinges/Assignment/Setup DNSmasq on CentOS.md",
-    "bee13-thinges/Assignment/using vi.md",
+    "Virtualbox guest additions.md",
+    "Virtual Box.md",
+    "SSL and TLS.md",
+    "Scribble Pad.md",
+    "python challenge.md",
+    "2024-04-10.md",
+    "Day Planners/Day Planner-20240410.md",
+    "bee13-thinges/lab/Installing minikube.md",
+    "bee13-thinges/lab/ideas.md",
+    "Day Planners/Day Planner-20230811.md",
     "bee13-thinges/Assignment/MobaXTerm guide.md",
-    "bee13-thinges/Assignment/Setting up centos virtual machine.md",
-    "Day Planners/Day Planner-20240321.md",
-    "learningandguides/Kubernetes/CKA/CKA Notes.md",
-    "Day Planners/Day Planner-20240318.md",
-    "Day Planners/Day Planner-20240313.md",
-    "Day Planners/Day Planner-20240312.md",
-    "Day Planners/Day Planner-20240311.md",
-    "learningandguides/Kubernetes/CKAD/Notes for CKAD.md",
-    "learningandguides/Kubernetes/CKA",
-    "Day Planners/Day Planner-20240310.md",
-    "Day Planners/Day Planner-20240308.md",
-    "Day Planners/Day Planner-20240306.md",
-    "Day Planners/Day Planner-20240305.md",
-    "Day Planners/Day Planner-20240304.md",
-    "Day Planners/Day Planner-20240303.md",
-    "learningandguides/Kubernetes/CKAD",
-    "Pasted image 20240131201041.png",
-    "Pasted image 20240131200954.png",
-    "Pasted image 20240131193102.png",
-    "Pasted image 20240131184629.png",
-    "bee13-thinges/lab",
-    "Pasted image 20240130223556.png",
-    "Pasted image 20240130223520.png",
-    "Pasted image 20240130223052.png",
-    "Pasted image 20240130222336.png",
-    "Pasted image 20240130222109.png",
+    "bee13-thinges/Assignment/Untitled.pdf",
+    "Day Planners/Day Planner-20230809.md",
+    "Day Planners/Day Planner-20230823.md",
+    "Day Planners/Day Planner-20230825.md",
+    "Day Planners/Day Planner-20230821.md",
+    "Pasted image 20240130220626.png",
+    "Pasted image 20240130214828.png",
+    "Pasted image 20240127162000.png",
+    "Pasted image 20240127160144.png",
+    "Pasted image 20240130221642.png",
+    "Pasted image 20240130212655.png",
     "Pasted image 20240130222042.png",
+    "Pasted image 20240127010103.png",
+    "Pasted image 20240127005806.png",
+    "bee13-thinges/Assignment/Lab1.html",
+    "learningandguides/Kubernetes/CKA",
+    "learningandguides/Kubernetes/CKAD",
+    "bee13-thinges/lab",
     "bee13-thinges/Assignment",
     "Untitled",
     "bee13-thinges",
     "learningandguides/computer vision",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "learningandguides/Operating Systems",
-    "learningandguides/Networking/OSI Model",
-    "learningandguides/Networking"
+    "learningandguides/Operating Systems"
   ]
 }

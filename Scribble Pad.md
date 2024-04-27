@@ -18,19 +18,13 @@ things to learn
 - testing (python?)
 - proper oop ( production oop, styles etc)
 
-- dev ops
-- terraform 
 - ncap etc
 - web server structures
 - api style structures 
 - operating systems book
 
-
 ## Kubernetes
 - docker compose
-- how does kubernetes services work
-- ingress
-- nodeport
 
 
 ## Python 
