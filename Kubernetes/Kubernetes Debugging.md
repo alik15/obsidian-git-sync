@@ -7,6 +7,9 @@ kubectl describe
 kubectl logs 
 
 kubectl <pod> logs
+
+/logs/pod
+/logs/container
 ```
 
 
