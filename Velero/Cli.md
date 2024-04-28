@@ -1,7 +1,7 @@
 
-
+```bash
 sudo cp velero /usr/local/bin
-
+```
 
 backup dir 
 
