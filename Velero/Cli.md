@@ -5,8 +5,10 @@ sudo cp velero /usr/local/bin
 
 backup dir 
 
-
+```bash
 /home/ali_khalid/backups
+```
+
 
 velero snapshot-location create default --provider /home/ali_khalid/backups
 
