@@ -10,32 +10,18 @@ things to learn
 # Things to Learn
 
 
-- bash 
 
-- advent of code 2022 (python)
-- leetcode top 150 problems (?)
-- advent of code 2023 (java)
-- testing (python?)
-- proper oop ( production oop, styles etc)
 
-- ncap etc
+## 2024
+- Perl
+- Golang
+- Create a basic container runtime system(Crane) in golang
+- elixir
+- capture the flag
+## Old
+
 - web server structures
 - api style structures 
 - operating systems book
-
-## Kubernetes
-- docker compose
-
-
-## Python 
-- zip
-- map 
-- logging module 
-- fstrings 
-- format thingies 
-- cauesar cipher program 
-
-
-
 - create a motor driver for a dc motor 
 - 

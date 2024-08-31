@@ -27,7 +27,7 @@ enter the following path
 
 now you can mount the `VBoxGuestAdditions.iso` file
 it will show up on the right dock
-open it, open terminal at that location and finally you can run thefollowing
+open it, open terminal at that location and finally you can run the following
 
 ```bash
 sudo ./VBoxLinuxAdditions.run
