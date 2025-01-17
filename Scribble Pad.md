@@ -1,5 +1,10 @@
 
 # Things to Learn
+## 2025
+- Custom TCP in golang
+- Boids 
+- anywall
+- 
 ## 2024
 - Perl
 - Golang
