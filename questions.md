@@ -12,7 +12,7 @@
 - [ ] what is a network namespace
 - [ ] why do we need a dns server for a company if we can use a vpn instead
 
-
+what are symbolic files
 
 # Kubernetes
 - [ ] how are requests balanced between pods
