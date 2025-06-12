@@ -1,17 +1,17 @@
-first set up your freebsd server to have the following enabled
-1) static ip on freebsd
+First set up your Freebsd server to have the following enabled
+1) Setting up Static IP on FreeBSD
 
 
 3) ssh on your ip to allow remote access(optional)
 	- Create  a user
 	- add a line to /etc/rc.conf
 
+[https://www.dark-hamster.com/operating-system/how-to-allow-root-account-to-connect-via-ssh-in-freebsd/](https://www.dark-hamster.com/operating-system/how-to-allow-root-account-to-connect-via-ssh-in-freebsd/)
 —-------------------------------
 
 [https://techviewleo.com/install-prometheus-with-node-exporter-grafana-on-freebsd/](https://techviewleo.com/install-prometheus-with-node-exporter-grafana-on-freebsd/)
 
 
-Set static ip
 
 Allow sshd on root
 
