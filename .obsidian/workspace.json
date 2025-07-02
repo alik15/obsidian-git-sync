@@ -201,6 +201,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-day-planner:Timeline": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -213,6 +214,9 @@
   },
   "active": "de808a51fa21e2fa",
   "lastOpenFiles": [
+    "Setting up NeoVim.md",
+    "Useful linux commands.md",
+    "Scribble Pad.md",
     "work/VIM Shortcuts.md",
     "work/Terminal Shortcuts.md",
     "work/Linux tools.md",
@@ -222,10 +226,7 @@
     "work/MinIO CLI.md",
     "work/R&D",
     "work/RegeX.md",
-    "Useful linux commands.md",
     "work/MinIO Cli",
-    "Setting up NeoVim.md",
-    "Scribble Pad.md",
     "questions.md",
     "work/Welcome.md",
     "freebsd dns/setting up freebsd dns server.md",
