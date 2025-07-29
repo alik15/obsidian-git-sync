@@ -23,3 +23,11 @@ CONTAINERD_ADDRESS=/run/k3s/containerd/containerd.sock /var/lib/rancher/rke2/bin
 
  CONTAINERD_ADDRESS=/run/k3s/containerd/containerd.sock /var/lib/rancher/rke2/bin/ctr -n k8s.io i import /tmp/rasa_duckling_0.2.0.2.tar
 
+
+
+sudo /usr/local/bin/rke2 server --debug
+
+
+https://gist.github.com/superseb/3b78f47989e0dbc1295486c186e944bf#crictl
+
+https://github.com/containerd/containerd/discussions/10053
