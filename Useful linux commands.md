@@ -31,3 +31,23 @@ sudo /usr/local/bin/rke2 server --debug
 https://gist.github.com/superseb/3b78f47989e0dbc1295486c186e944bf#crictl
 
 https://github.com/containerd/containerd/discussions/10053
+
+
+>"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" modifymedium disk "F:\arch\arch.vdi" --resize 40000
+
+Flush all IPs from the NIC
+sudo ip addr flush dev enp3s0
+
+# Flush all routes
+sudo ip route flush dev enp3s0
+
+At this point the NIC has no IP and no routes.
+📡 Get a new IP via DHCP
+
+sudo dhclient -r enp3s0   # release old lease
+sudo dhclient enp3s0      # request new lease
+
+Check:
+
+ip addr show dev enp3s0
+ip route
