@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Useful linux commands.md",
+                "file": "Masters/DNS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Useful linux commands"
+              "title": "DNS"
+            }
+          },
+          {
+            "id": "c0193333e2cc251e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
             }
           }
         ],
@@ -213,10 +225,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "de808a51fa21e2fa",
+  "active": "389cb47c7ca71e29",
   "lastOpenFiles": [
-    "work/VIM Shortcuts.md",
+    "Masters/Application Layer",
     "Useful linux commands.md",
+    "Masters/DNS.md",
+    "Masters",
+    "Masters",
+    "work/VIM Shortcuts.md",
     "Setting up NeoVim.md",
     "Scribble Pad.md",
     "work/Terminal Shortcuts.md",
@@ -250,11 +266,7 @@
     "archived/project ideas.md",
     "archived/links.md",
     "Anywall/Anywall.md",
-    "archived",
-    "Anywall",
     "archived/Velero/Installation.md",
-    "archived/Velero/Cli.md",
-    "archived/Virtualbox guest additions.md",
     "archived/Networking/attachments/Pasted image 20230809121834.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
