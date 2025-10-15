@@ -41,19 +41,19 @@ Once a name server learns of a query, it is cached. This:
 - these entries disappears after some time 
 cached entries may become out of date after some time 
 
-## DNS Record 
+## DNS Records
 ### Resource Record format
 ```
 (name, value, type, ttl)
 ```
 ### Types of Resource Records
 
-| Resource Record Type | Name       | Value                                 |
-| -------------------- | ---------- | ------------------------------------- |
-| A                    | hostname   | IP Address                            |
-| CNAME                | Alias Name | Canonical Name                        |
-| MX                   |            |                                       |
-| NS                   | domain     | hostname of authoritative name server |
+| Resource Record Type | Name                                           | Value                                         |
+| -------------------- | ---------------------------------------------- | --------------------------------------------- |
+| A                    | hostname                                       | IP Address                                    |
+| CNAME                | Alias Name                                     | Canonical Name                                |
+| MX                   | contains the name of the <br>admin@example.com | domain of the mail server<br>mail.example.com |
+| NS                   | domain                                         | hostname of authoritative name server         |
 
 
 ## DNS Protocol Message

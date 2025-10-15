@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Masters/Application Layer/Video Streaming.md",
+                "file": "Masters/Network Switching and Routing/Application Layer/DNS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Video Streaming"
+              "title": "DNS"
             }
           }
         ],
@@ -153,8 +153,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -177,8 +177,8 @@
             "state": {
               "type": "timeline",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "timeline"
             }
           },
           {
@@ -187,8 +187,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           }
         ],
@@ -202,7 +202,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "bases:Create new base": false,
-      "obsidian-day-planner:Timeline": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -215,12 +214,14 @@
   },
   "active": "e00b9c21cb5b38d7",
   "lastOpenFiles": [
-    "Masters/Application Layer/DNS.md",
-    "Masters/Application Layer/Pasted image 20251013103319.png",
-    "Masters/Application Layer/Video Streaming.md",
-    "Masters/Application Layer/Pasted image 20251013103358.png",
+    "Masters/Network Switching and Routing/Application Layer/Transport Layer.md",
+    "Masters/Network Switching and Routing/Application Layer/Video Streaming.md",
+    "Masters/Network Switching and Routing/Application Layer/DNS.md",
+    "Masters/Network Switching and Routing",
+    "Masters/Network Switching and Routing/Application Layer/Pasted image 20251013103319.png",
+    "Masters/Network Switching and Routing/Application Layer/Pasted image 20251013103358.png",
     "Untitled.canvas",
-    "Masters/Application Layer",
+    "Masters/Network Switching and Routing/Application Layer",
     "Useful linux commands.md",
     "Masters",
     "Masters",
@@ -243,7 +244,6 @@
     "DevOps Concepts",
     "work/Velero",
     "work",
-    "freebsd dns",
     "archived/Pasted image 20231027092649.png",
     "archived/Pasted image 20230831124157.png",
     "archived/Pasted image 20230831110509.png",
